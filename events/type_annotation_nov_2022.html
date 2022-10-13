@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SWC/GCNU Software Skills</title>
+
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrapper">
+    <header>
+
+        <a href="https://www.sainsburywellcome.org/"><img src="https://rawcdn.githack.com/adamltyson/public-data/609927f999257b129c15d99116fadb11710a5e98/PyStarters_2019/SWC.png" alt="SWC logo" style="width:400px"></a>
+        <br>
+        <br>
+
+
+
+    </header>
+    <section>
+        <h1>Type annotation in Python</h1><br>
+        <h2>November 25<sup>th</sup> 2022. 11am-12pm</h2>
+        <p>3rd floor seminar room, Gatsby Computational Neuroscience Unit, UCL.</p>
+        <p>Delivered by <a href="https://github.com/pierreglaser">Pierre Glaser</a>.</p>
+
+        <h2>Overview</h2>
+        <p>The Python programming language has become the de facto standard for writing a vast majority of scientific code. While being highly general-purpose (unlike alternatives like matlab or R), Python is *interpreted* and *dynamically-typed*. On the one hand, these properties have spurred the emergence of interactive Python-powered development toolkits such as IPython or Jupyter, making it easy for scientists and software engineers to explore data and write Python code in an iterative manner. On the other hand, these properties imply that the type safety of a program is not checked by a compiler, but by the programmer, the remaining uncaught type errors being raised at runtime. Detrimental consequences follow: the mental charge of writing code increases, refactoring becomes daunting, interactive development loses in fluidity.</p>
+        <p>Type Hints, introduced in Python by PEP 484, seek to reintroduce type safety to Python programs, through the concept of “type annotations”. Type annotations are used in Python programs to declare the expected type of variables. These annotations do not affect runtime, but can be leveraged by static Python type checkers such as mypy or pyright to produce ahead-of-time warning messages describing the mismatch between a variable’s type annotation and its runtime type as predicted by the checker.</p>
+        <p>On the one hand, type annotations can be adopted gradually, inducing a low barrier to entry. On the other hand, a holistic usage of type hints requires some foundational knowledge of type theory, a subfield of theoretical computer science which is not frequently mastered by domain scientists.</p>
+        <p>In this tutorial, we will learn how to use Python type annotations: we will go through the basic type-theory prerequisites that are necessary for an informed usage of such annotations. We will make a panorama of the current available type-related features in Python, through a series of basic illustrative examples. Finally, we will discuss the additional features stemming from the integration of type annotations with popular code development toolchains (in particular Language Servers), leading to more informative completion and error checking.</p>
+
+    </section>
+
+
+    <footer>
+        <a href="../index.html">Home</a>
+        <p>Any questions?<br>
+            Contact <a href="http://github.com/adamltyson">Adam Tyson</a><br>
+        <p><small><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></small></p>
+    </footer>
+
+</div>
+<script src="javascripts/scale.fix.js"></script>
+</body>
+</html>
