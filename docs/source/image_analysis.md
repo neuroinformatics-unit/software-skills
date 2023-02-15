@@ -1,6 +1,6 @@
 # Image Analysis in Python
 
-## Date and time TBC
+### Date and time TBC
 
 ### Overview
 This half day course will introduce the use of Python packages to analyse (numpy, scipy & scikit-image) and visualise (napari) image data.

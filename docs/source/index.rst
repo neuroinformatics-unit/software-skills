@@ -5,10 +5,12 @@ SWC/GCNU Software Skills
 SWC/GCNU Software Skills Training
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Courses:
 
    image_analysis.md
+   timeseries-analysis.md
+   HPC-linux.md
 
 
 .. include:: readme_link.md
