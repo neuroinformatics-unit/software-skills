@@ -8,9 +8,10 @@ SWC/GCNU Software Skills Training
    :maxdepth: 1
    :caption: Courses:
 
-   image_analysis.md
+   image-analysis-python.md
    timeseries-analysis.md
    HPC-linux.md
+   introduction-image-analysis.md
 
 
 .. include:: readme_link.md
