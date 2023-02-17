@@ -2,6 +2,7 @@
 SWC/GCNU Software Skills
 =====================================
 
+
 .. toctree::
    :maxdepth: 1
    :caption: Upcoming courses:

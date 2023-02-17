@@ -112,5 +112,6 @@ html_theme_options = {
         },
 
    ],
+       "footer_items": ["custom_footer"],
 
 }
