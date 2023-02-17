@@ -109,6 +109,8 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
             # The type of image to be used (see below for details)
             "type": "fontawesome",
-        }
+        },
+
    ],
+
 }
