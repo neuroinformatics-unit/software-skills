@@ -1,8 +1,8 @@
 # Introduction to Image Analysis
 
-### Date and time TBC
+## Date and time TBC
 
-### Summary
+## Summary
 Targeted at those new to image analysis. No experience whatsoever is required.
 
 The course will cover some fundamentals of image analysis, using examples in the popular open-source software - ImageJ.
@@ -10,11 +10,11 @@ The course will cover some fundamentals of image analysis, using examples in the
 The focus will be on general image analysis principles which can be applied in any software package. Many of the example images will be from microscopy, but the principles are applicable to any imaging modality.
 The aim will be to carry out basic image analysis and visualisation tasks using Python, and create a napari plugin to share the workflow with others.
 
-### Aims
+## Aims
 * Allow those new to microscopy to feel comfortable carrying out basic image analysis independently.
 * To provide a starting point for the more advanced image analysis methods that are becoming necessary in many areas of biomedical science.
 
-### Contents
+## Contents
 
 * ImageJ/FIJI
 * Histograms, thresholding & segmentation 
@@ -29,7 +29,7 @@ The aim will be to carry out basic image analysis and visualisation tasks using 
 * ImageJ automation & macros 
 * Experiment planning
 
-### Links
+## Links
 * [Slides](https://docs.google.com/presentation/d/1ROM0s1Us--Ccj4InCkNg7hVWIrcJfNona5sRiz_ff_g/edit?usp=sharing)
 * [Sample data](https://drive.google.com/file/d/1-j4z6rGRNds4-GhjLAyhhH_dAAcKFbsS/view?usp=share_link)
 

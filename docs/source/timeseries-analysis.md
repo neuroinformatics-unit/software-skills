@@ -1,11 +1,11 @@
 # Introduction to Timeseries Analysis in Python
 
-### March 20th 2023. 1pm-5.30pm
+## March 20th 2023. 1pm-5.30pm
 SWC Lecture Theatre, UCL
 
 Delivered by [Joe Ziminski](https://github.com/JoeZiminski)
 
-### Overview
+## Overview
 We are pleased to offer an introductory course for timeseries analysis and data presentation in Python. This course will include:
 
 * An overview of python's scientific libraries (e.g. NumPy. SciPy, Pandas)

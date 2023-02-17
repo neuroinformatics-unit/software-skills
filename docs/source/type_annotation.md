@@ -1,6 +1,6 @@
 # Type annotation in Python
 
-### Overview
+## Overview
 The Python programming language has become the de facto standard for writing a vast majority of scientific code. While being highly general-purpose (unlike alternatives like matlab or R), Python is interpreted and dynamically-typed. On the one hand, these properties have spurred the emergence of interactive Python-powered development toolkits such as IPython or Jupyter, making it easy for scientists and software engineers to explore data and write Python code in an iterative manner. On the other hand, these properties imply that the type safety of a program is not checked by a compiler, but by the programmer, the remaining uncaught type errors being raised at runtime. Detrimental consequences follow: the mental charge of writing code increases, refactoring becomes daunting, interactive development loses in fluidity.
 
 Type Hints, introduced in Python by PEP 484, seek to reintroduce type safety to Python programs, through the concept of “type annotations”. Type annotations are used in Python programs to declare the expected type of variables. These annotations do not affect runtime, but can be leveraged by static Python type checkers such as mypy or pyright to produce ahead-of-time warning messages describing the mismatch between a variable’s type annotation and its runtime type as predicted by the checker.
@@ -11,5 +11,5 @@ In this tutorial, we will learn how to use Python type annotations: we will go t
 
 Delivered by [Pierre Glaser](https://github.com/pierreglaser).
 
-### Links
+## Links
 * [Slides](https://adamltyson.com/pyclub-typing/)

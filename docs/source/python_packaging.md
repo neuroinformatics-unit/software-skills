@@ -1,11 +1,11 @@
 # Turning your Python scripts into reusable, general-purpose software
 
-### Overview
+## Overview
 When using Python, you will use many external packages (pandas, numpy etc.). This course will introduce how to develop your software into a general-purpose tool that can be used inside or outside a Python environment. We will also cover some tools to make developing robust, maintainable code a bit easier.
 
 For this course you will need a very basic knowledge of Python, and a laptop with conda (miniconda or anaconda) installed. If you need any help prior to the course (e.g. if you have a different Python installation) contact Adam Tyson (adam.tyson@ucl.ac.uk).
 
-### Contents
+## Contents
 * Designing a Python package 
 * Creating command line entry points 
 * Structuring your project 
@@ -15,7 +15,7 @@ For this course you will need a very basic knowledge of Python, and a laptop wit
 * Packaging your code and releasing your software
 
 
-### Links
+## Links
 * [Slides](https://docs.google.com/presentation/d/1N6AOkBGkMOhELUfVsnFVRUiZ_jI94QYD_M7Hr42PSro/edit?usp=sharing)
 
 
