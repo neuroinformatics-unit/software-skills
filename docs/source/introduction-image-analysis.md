@@ -33,7 +33,7 @@ The aim will be to carry out basic image analysis and visualisation tasks using 
 * [Slides](https://docs.google.com/presentation/d/1ROM0s1Us--Ccj4InCkNg7hVWIrcJfNona5sRiz_ff_g/edit?usp=sharing)
 * [Sample data](https://drive.google.com/file/d/1-j4z6rGRNds4-GhjLAyhhH_dAAcKFbsS/view?usp=share_link)
 
-* [FIJI download (OSX)](https://downloads.imagej.net/fiji/latest/fiji-macosx.dmg)
+* [FIJI download (OSX)](https://downloads.imagej.net/fiji/latest/fiji-macosx.zip)
 * [FIJI download (Windows)](https://downloads.imagej.net/fiji/latest/fiji-win64.zip)
 * [FIJI download (Linux)](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
 
