@@ -8,34 +8,34 @@ Insert text here.
 ::::{grid} 1 2 2 3
 :gutter: 3
 
-:::{grid-item-card} {fas}`wave-square;sd-text-primary` Timeseries Analysis
+:::{grid-item-card} {fas}`wave-square;sd-text-primary` March 20th 2023
 :link: courses/timeseries-analysis
 :link-type: doc
 
-Tools for analysing neuroanatomical data.
+Introduction to Timeseries Analysis in Python
 +++
-**Date**: 2021-09-15 <br>
-**Location**: Online
+SWC Lecture Theatre, UCL <br>
+1pm-5.30pm
 :::
 
-:::{grid-item-card} {fa}`file-image;sd-text-primary` Image analysis in Python
-:link: courses/image-analysis-python
-:link-type: doc
-
-Tools to help with structuring project folders and transferring data between computers.
-+++
-**Date**: 2021-09-15 <br>
-**Location**: Online
-:::
-
-:::{grid-item-card} {fas}`code;sd-text-primary` HPC-linux
+:::{grid-item-card} {fas}`code;sd-text-primary` May 15th 2023
 :link: courses/HPC-linux
 :link-type: doc
 
-Tools to help with software development.
+Introduction to high-performance computing with Linux
 +++
-**Date**: 2021-09-15 <br>
-**Location**: Online
+SWC Lecture Theatre, UCL <br>
+9am-5.30pm
+:::
+
+:::{grid-item-card} {fa}`file-image;sd-text-primary` Date TBC
+:link: courses/image-analysis-python
+:link-type: doc
+
+Image Analysis in Python
++++
+TBC <br>
+TBC
 :::
 
 ::::
