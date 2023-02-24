@@ -5,3 +5,4 @@ myst-parser
 numpydoc
 nbsphinx
 linkify-it-py
+sphinx-autodoc-typehints
