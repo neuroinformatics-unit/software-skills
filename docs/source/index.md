@@ -29,7 +29,17 @@ SWC Lecture Theatre, UCL <br>
 9am-5.30pm
 :::
 
-:::{grid-item-card} {fa}`file-image;sd-text-primary` Date TBC
+:::{grid-item-card} {fa}`file-image;sd-text-primary` May 30th 2023
+:link: courses/introduction-image-analysis
+:link-type: doc
+
+Introduction to Image Analysis
++++
+SWC Lecture Theatre, UCL <br>
+10am-4pm
+:::
+
+:::{grid-item-card} {fa}`file-image;sd-text-primary` June 5th 2023
 :link: courses/image-analysis-python
 :link-type: doc
 
@@ -37,16 +47,6 @@ Image Analysis in Python
 +++
 SWC Lecture Theatre, UCL <br>
 1pm-5pm
-:::
-
-:::{grid-item-card} {fa}`file-image;sd-text-primary` Date TBC
-:link: courses/introduction-image-analysis
-:link-type: doc
-
-Introduction to Image Analysis
-+++
-TBC <br>
-TBC
 :::
 
 ::::
