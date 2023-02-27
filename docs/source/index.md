@@ -35,8 +35,8 @@ SWC Lecture Theatre, UCL <br>
 
 Image Analysis in Python
 +++
-TBC <br>
-TBC
+SWC Lecture Theatre, UCL <br>
+1pm-5pm
 :::
 
 :::{grid-item-card} {fa}`file-image;sd-text-primary` Date TBC
