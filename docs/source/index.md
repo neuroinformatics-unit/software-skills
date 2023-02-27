@@ -1,6 +1,7 @@
 # SWC/GCNU Software Skills
 
-Insert text here.
+Computational skills training at the [UCL](https://www.ucl.ac.uk/) 
+[Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) and [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit).
 
 ## Upcoming Courses
 
@@ -33,6 +34,16 @@ SWC Lecture Theatre, UCL <br>
 :link-type: doc
 
 Image Analysis in Python
++++
+TBC <br>
+TBC
+:::
+
+:::{grid-item-card} {fa}`file-image;sd-text-primary` Date TBC
+:link: courses/introduction-image-analysis
+:link-type: doc
+
+Introduction to Image Analysis
 +++
 TBC <br>
 TBC

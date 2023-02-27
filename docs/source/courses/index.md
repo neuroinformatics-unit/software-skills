@@ -1,4 +1,8 @@
 # All courses
+This page lists all courses that have run (or will be run). 
+
+If you have any questions, or would like to request a course be run again, please contact
+<a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a>.
 
 ```{toctree}
 :maxdepth: 2

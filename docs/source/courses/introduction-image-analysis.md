@@ -1,8 +1,6 @@
 # Introduction to Image Analysis
 
-## Date and time TBC
-
-## Summary
+## Overview
 Targeted at those new to image analysis. No experience whatsoever is required.
 
 The course will cover some fundamentals of image analysis, using examples in the popular open-source software - ImageJ.
