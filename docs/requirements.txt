@@ -1,8 +1,0 @@
-sphinx>=5.0,<6.0
-pydata-sphinx-theme
-sphinx-design
-myst-parser
-numpydoc
-nbsphinx
-linkify-it-py
-sphinx-autodoc-typehints

@@ -1,0 +1,532 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Introduction to software development in Python &#8212; SWC/GCNU Software Skills</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/bootstrap.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=796348d33e8b1d947c94" rel="stylesheet">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94">
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/design-tabs.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'courses/intro-software-dev';</script>
+    <link rel="canonical" href="https://software-skills.neuroinformatics.dev/courses/intro-software-dev.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Turning your Python scripts into reusable, general-purpose software" href="python-packaging.html" />
+    <link rel="prev" title="Introduction to Image Analysis" href="introduction-image-analysis.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="docsearch:language" content="en">
+  </head>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+  <label class="overlay overlay-primary" for="__primary"></label>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+      
+<form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+  </div>
+
+  
+  <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+      <span class="fa-solid fa-bars"></span>
+  </label>
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../index.html">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+    <p class="title logo__title">SWC/GCNU Software Skills</p>
+  
+</a>
+    
+  </div>
+
+  
+  <div class="col-lg-9 navbar-header-items">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        All courses
+                      </a>
+                    </li>
+                
+    </ul>
+</nav>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+        <div class="navbar-end-item navbar-persistent--container">
+          
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+        </div>
+      
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/neuroinformatics-unit/software-skills" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fa-brands fa-github"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+  
+    <div class="navbar-persistent--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-toggle="tooltip">
+  <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+    </div>
+  
+
+  
+  <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fa-solid fa-outdent"></span>
+  </label>
+  
+
+</div>
+  </nav>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="index.html">
+                        All courses
+                      </a>
+                    </li>
+                
+    </ul>
+</nav>
+      </div>
+      
+      </div>
+    
+
+    
+    
+    <div class="sidebar-header-items__end">
+      
+      <div class="navbar-end-item">
+        <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/neuroinformatics-unit/software-skills" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-toggle="tooltip"><span><i class="fa-brands fa-github"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  <div class="sidebar-start-items sidebar-primary__section">
+    <div class="sidebar-start-items__item"><nav class="bd-links" id="bd-docs-nav" aria-label="Section navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">
+    Section Navigation
+  </p>
+  <div class="bd-toc-item navbar-nav">
+    <p aria-level="2" class="caption" role="heading"><span class="caption-text">Projects index</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="image-analysis-python.html">Image Analysis in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="timeseries-analysis.html">Introduction to Timeseries Analysis in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HPC-linux.html">Introduction to high-performance computing with Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-image-analysis.html">Introduction to Image Analysis</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Introduction to software development in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-packaging.html">Turning your Python scripts into reusable, general-purpose software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="type-annotation.html">Type annotation in Python</a></li>
+</ul>
+
+  </div>
+</nav>
+    </div>
+  </div>
+  
+
+  
+  <div class="sidebar-end-items sidebar-primary__section">
+    <div class="sidebar-end-items__item">
+    </div>
+  </div>
+
+  
+  <div id="rtd-footer-container"></div>
+
+      </div>
+      <main id="main-content" class="bd-main">
+        
+        
+        <div class="bd-content">
+          <div class="bd-article-container">
+            
+            <div class="bd-header-article">
+                
+            </div>
+            
+            
+            <article class="bd-article" role="main">
+              
+  <section class="tex2jax_ignore mathjax_ignore" id="introduction-to-software-development-in-python">
+<h1>Introduction to software development in Python<a class="headerlink" href="#introduction-to-software-development-in-python" title="Permalink to this heading">#</a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
+<p>Python is one of the most popular programming languages worldwide and is used in all areas of science. As one of the most flexible languages it can be used to automate routine tasks, visualise data, process images and run statistical tests, along with many other applications.</p>
+<p>The first day of this course will introduce you to the very basics of programming in Python and get you up and running on your own machine. No experience is necessary, all you need is a laptop you can install software on.</p>
+<p>The second day of this course will provide some further Python training, and particularly introduce good practices that will pay dividends as you dive deeper into programming. Additionally, we will introduce version control with Git, a key tool for anyone writing code.</p>
+</section>
+<section id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this heading">#</a></h2>
+<p><strong>Day 1</strong></p>
+<p>Morning - Introduction</p>
+<ul class="simple">
+<li><p>Introduction to Python</p></li>
+<li><p>Installing Python</p></li>
+<li><p>Editing Python files (IDE, text editor etc.)</p></li>
+<li><p>Variables</p></li>
+<li><p>Data types</p></li>
+</ul>
+<p>Afternoon - General programming</p>
+<ul class="simple">
+<li><p>Morning overview and Q&amp;A</p></li>
+<li><p>Loops</p></li>
+<li><p>Conditional statements</p></li>
+<li><p>Loading and saving data</p></li>
+<li><p>Writing your first Python script</p></li>
+<li><p>Installing packages with pip</p></li>
+</ul>
+<p><strong>Day 2</strong></p>
+<p>Morning - Introduction to version control with Git</p>
+<ul class="simple">
+<li><p>Why is version control important?</p></li>
+<li><p>Getting started (setting up git)</p></li>
+<li><p>Basic commands (add / commit / diff)</p></li>
+<li><p>Inspecting git history (checkout)</p></li>
+<li><p>GitHub</p></li>
+<li><p>Workflows (branches)</p></li>
+</ul>
+<p>Afternoon - Further programming</p>
+<ul class="simple">
+<li><p>Working with virtual environments</p></li>
+<li><p>Using third party libraries from pip and conda</p></li>
+<li><p>List comprehensions</p></li>
+<li><p>Functions</p></li>
+<li><p>Object oriented programming</p></li>
+<li><p>Errors and exceptions</p></li>
+<li><p>Organising your Python project and importing functions</p></li>
+<li><p>Documenting your code</p></li>
+</ul>
+</section>
+<section id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this heading">#</a></h2>
+<section id="course-materials">
+<h3>Course Materials<a class="headerlink" href="#course-materials" title="Permalink to this heading">#</a></h3>
+<p><a class="reference external" href="https://docs.google.com/presentation/d/12kxJKIGZdrMGC_UqpDQcRshmw9wzicRmMJOA4AFEwnU/edit?usp=sharing">Slides (Python)</a><br />
+<a class="reference external" href="https://docs.google.com/presentation/d/1HmTqmgB34deJILvPOQtwuaQR_iwGp5AwEwGf7tmx5hE/edit?usp=sharing">Slides (Git)</a><br />
+<a class="reference external" href="https://vincentarelbundock.github.io/Rdatasets/datasets.html">Sample CSV files</a></p>
+</section>
+<section id="id1">
+<h3>Links<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p><a class="reference external" href="http://swcarpentry.github.io/shell-novice">Further bash materials</a><br />
+<a class="reference external" href="http://swcarpentry.github.io/git-novice">Further git materials</a></p>
+<p><a class="reference external" href="https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg">Miniconda installer (OSX, Intel)</a><br />
+<a class="reference external" href="https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg">Miniconda installer (OSX, Apple Silicon)</a><br />
+<a class="reference external" href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe">Miniconda installer (Windows)</a><br />
+<a class="reference external" href="https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh">Miniconda installer (Linux)</a></p>
+<p><a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a></p>
+</section>
+<section id="ides">
+<h3>IDEs<a class="headerlink" href="#ides" title="Permalink to this heading">#</a></h3>
+<p><a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a><br />
+<a class="reference external" href="https://code.visualstudio.com/">VS Code</a><br />
+<a class="reference external" href="https://www.spyder-ide.org/">Spyder</a><br />
+<a class="reference external" href="https://thonny.org/">Thonny</a></p>
+</section>
+</section>
+</section>
+
+
+            </article>
+            
+            
+            
+            <footer class="bd-footer-article">
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+  <a class='left-prev' id="prev-link" href="introduction-image-analysis.html" title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+          <p class="prev-next-subtitle">previous</p>
+          <p class="prev-next-title">Introduction to Image Analysis</p>
+      </div>
+  </a>
+  <a class='right-next' id="next-link" href="python-packaging.html" title="next page">
+  <div class="prev-next-info">
+      <p class="prev-next-subtitle">next</p>
+      <p class="prev-next-title">Turning your Python scripts into reusable, general-purpose software</p>
+  </div>
+  <i class="fa-solid fa-angle-right"></i>
+  </a>
+</div>
+            </footer>
+            
+          </div>
+          
+          
+          
+            <div class="bd-sidebar-secondary bd-toc">
+              
+<div class="toc-item">
+  
+<div class="tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+</div>
+<nav id="bd-toc-nav" class="page-toc">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#overview">
+   Overview
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#contents">
+   Contents
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#links">
+   Links
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#course-materials">
+     Course Materials
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Links
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ides">
+     IDEs
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+</div>
+
+<div class="toc-item">
+  
+<div id="searchbox"></div>
+</div>
+
+<div class="toc-item">
+  
+</div>
+
+<div class="toc-item">
+  
+<div class="tocsection sourcelink">
+    <a href="../_sources/courses/intro-software-dev.md.txt">
+        <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+</div>
+
+</div>
+
+            </div>
+          
+          
+        </div>
+        <footer class="bd-footer-content">
+          <div class="bd-footer-content__inner">
+            
+          </div>
+        </footer>
+        
+      </main>
+    </div>
+  </div>
+
+  
+    
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=796348d33e8b1d947c94"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=796348d33e8b1d947c94"></script>
+
+  <footer class="bd-footer"><div class="bd-footer__inner container">
+  
+  <div class="footer-item">
+    <div class="things-in-a-row">
+    <div class="col">
+        <p class="sphinx-version">
+            Created using <a href="https://sphinx-doc.org/">Sphinx</a> 5.3.0.
+            <br/>
+        </p>
+        <p class="theme-version">
+            Built with the
+            <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a>
+            0.12.0.
+        </p>
+        <p>
+           Contact: <a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a>
+        </p>
+    </div>
+    <div class="things-in-a-row">
+        <a href="https://www.sainsburywellcome.org/web/">
+            <img src="../_static/light-logo-swc.png" alt="Sponsors" class="only-light img-sponsor"/>
+            <img src="../_static/dark-logo-swc.png" alt="Sponsors" class="only-dark img-sponsor"/>
+        </a>
+        <a href="https://www.ucl.ac.uk/">
+            <img src="../_static/light-logo-gatsby.png" alt="Sponsors" class="only-light img-sponsor"/>
+            <img src="../_static/dark-logo-gatsby.png" alt="Sponsors" class="only-dark img-sponsor"/>
+        </a>
+        <a href="https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit">
+            <img src="../_static/light-logo-ucl.png" alt="Sponsors" class="only-light img-sponsor"/>
+            <img src="../_static/dark-logo-ucl.png" alt="Sponsors" class="only-dark img-sponsor"/>
+        </a>
+    </div>
+</div>
+  </div>
+  
+</div>
+  </footer>
+  </body>
+</html>
