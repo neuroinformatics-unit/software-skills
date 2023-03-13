@@ -113,6 +113,6 @@ html_theme_options = {
         },
 
    ],
-       "footer_items": ["custom_footer"],
-
+    "footer_start": ["footer_start"],
+    "footer_end": ["footer_end"]
 }
