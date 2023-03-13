@@ -14,3 +14,16 @@ The course will start with the analysis of univariate timeseries data (e.g. a pa
 This is an introductory course that does not require prior signal processing knowledge. The emphasis will be on implementing these processing in code — signal processing ideas will be explored at a high level with little reference to mathematical treatment of the theory, though this can be discussed during the day for those interested.
 
 The only requirement is a working python environment in your coding environment of choice. Please get in contact prior to the course if you don't have one, we would be happy to help you set this up.
+
+## Links
+
+* [Slides](https://docs.google.com/presentation/d/1auKX6nvKOJgY_fg_Su7TFEesEQs9YK7aesjoYnJAGy8/edit?usp=sharing)
+
+* [Repo](https://github.com/neuroinformatics-unit/swc-timeseries-analysis-course-2023)
+
+* [3B1B Fourier Transform](https://www.youtube.com/watch?v=spUNpyF58BY)
+
+* [Being 'comfortable in confusion'](https://j2kun.svbtle.com/mathematicians-are-chronically-lost-and-confused)
+
+* [Fourier Transform History](https://www.scientificamerican.com/article/the-fourier-transform/)
+
