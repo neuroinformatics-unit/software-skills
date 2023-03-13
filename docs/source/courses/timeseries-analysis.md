@@ -17,13 +17,13 @@ The only requirement is a working python environment in your coding environment 
 
 ## Links
 
-[Slides](https://docs.google.com/presentation/d/1auKX6nvKOJgY_fg_Su7TFEesEQs9YK7aesjoYnJAGy8/edit?usp=sharing)
+* [Slides](https://docs.google.com/presentation/d/1auKX6nvKOJgY_fg_Su7TFEesEQs9YK7aesjoYnJAGy8/edit?usp=sharing)
 
-[Repo](https://github.com/neuroinformatics-unit/swc-timeseries-analysis-course-2023)
+* [Repo](https://github.com/neuroinformatics-unit/swc-timeseries-analysis-course-2023)
 
-[3B1B Fourier Transform](https://www.youtube.com/watch?v=spUNpyF58BY)
+* [3B1B Fourier Transform](https://www.youtube.com/watch?v=spUNpyF58BY)
 
-[Being 'comfortable in confusion'](https://j2kun.svbtle.com/mathematicians-are-chronically-lost-and-confused)
+* [Being 'comfortable in confusion'](https://j2kun.svbtle.com/mathematicians-are-chronically-lost-and-confused)
 
-[Fourier Transform History](https://www.scientificamerican.com/article/the-fourier-transform/)
+* [Fourier Transform History](https://www.scientificamerican.com/article/the-fourier-transform/)
 
