@@ -9,16 +9,6 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 ::::{grid} 1 2 2 3
 :gutter: 3
 
-:::{grid-item-card} {fas}`wave-square;sd-text-primary` March 20th 2023
-:link: courses/timeseries-analysis
-:link-type: doc
-
-Introduction to Timeseries Analysis in Python
-+++
-SWC Lecture Theatre, UCL <br>
-1pm-5.30pm
-:::
-
 :::{grid-item-card} {fas}`code;sd-text-primary` May 15th 2023
 :link: courses/HPC-linux
 :link-type: doc
