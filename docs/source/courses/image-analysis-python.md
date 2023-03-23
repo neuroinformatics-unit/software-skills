@@ -18,3 +18,6 @@ This half day course will introduce the use of Python packages to analyse and vi
 
 - **Tools for processing histology data:**
     - BrainGlobe and ABBA for image registration and segmentation
+
+## Links
+* [2018 Data Science Bowl data](https://drive.google.com/file/d/1hlDAvRFH7Ax_Nxee4jCyN_IIDax-CLc8/view?usp=sharing)
