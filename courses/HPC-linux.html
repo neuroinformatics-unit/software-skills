@@ -351,15 +351,108 @@ document.write(`
 <h1>Introduction to high-performance computing with Linux<a class="headerlink" href="#introduction-to-high-performance-computing-with-linux" title="Permalink to this heading">#</a></h1>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
-<p>The aim of this one-day course is to introduce Linux and bash to novice users, providing the fundamental knowledge to effectively use the SWC High Performance Computing (HPC) system.</p>
+<p>The aim of this one-day course is to introduce Linux and bash to novice users, providing the fundamental knowledge to
+effectively use the SWC/GNU High Performance Computing (HPC) system.</p>
 </section>
 <section id="content">
 <h2>Content<a class="headerlink" href="#content" title="Permalink to this heading">#</a></h2>
+<section id="introduction-to-linux-bash">
+<h3>Introduction to Linux &amp; Bash<a class="headerlink" href="#introduction-to-linux-bash" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Introduction to Linux &amp; bash</p></li>
-<li><p>Introduction to HPC</p></li>
-<li><p>Applied HPC use</p></li>
+<li><p>Basic introduction to Linux/Unix</p>
+<ul>
+<li><p>Why is Linux used so often in scientific computing?</p></li>
 </ul>
+</li>
+<li><p>Directory structure</p></li>
+<li><p>Introduction to Bash</p></li>
+<li><p>Navigating file structure</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">ls</span></code>, <code class="docutils literal notranslate"><span class="pre">pwd</span></code>, <code class="docutils literal notranslate"><span class="pre">cd</span></code></p></li>
+</ul>
+</li>
+<li><p>Getting help</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">man</span></code>, <code class="docutils literal notranslate"><span class="pre">--help</span></code></p></li>
+</ul>
+</li>
+<li><p>Debugging errors</p></li>
+<li><p>Creating files</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">touch</span></code>, <code class="docutils literal notranslate"><span class="pre">nano</span></code>/<code class="docutils literal notranslate"><span class="pre">vim</span></code>, redirect output (<code class="docutils literal notranslate"><span class="pre">&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&gt;&gt;</span></code>)</p></li>
+</ul>
+</li>
+<li><p>Displaying/printing file contents</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">echo</span></code>, <code class="docutils literal notranslate"><span class="pre">cat</span></code></p></li>
+</ul>
+</li>
+<li><p>Moving/renaming/deleting files</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">mv</span></code>, <code class="docutils literal notranslate"><span class="pre">rm</span></code>, <code class="docutils literal notranslate"><span class="pre">cp</span></code>, <code class="docutils literal notranslate"><span class="pre">mkdir</span></code></p></li>
+</ul>
+</li>
+<li><p>Wildcards</p></li>
+<li><p>Pipes</p></li>
+<li><p>Bash scripts</p></li>
+<li><p>Concept of <code class="docutils literal notranslate"><span class="pre">$PATH</span></code></p></li>
+<li><p>Customization</p>
+<ul>
+<li><p>links, aliases, and <code class="docutils literal notranslate"><span class="pre">.bashrc</span></code> files</p></li>
+</ul>
+</li>
+<li><p>Permissions</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">chmod</span></code>, <code class="docutils literal notranslate"><span class="pre">rwx</span></code>, <code class="docutils literal notranslate"><span class="pre">sudo</span></code></p></li>
+</ul>
+</li>
+<li><p>Cautions</p>
+<ul>
+<li><p>Deleting files is forever</p></li>
+<li><p>Spaces in filenames</p></li>
+<li><p>…</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="introduction-to-hpc">
+<h3>Introduction to HPC<a class="headerlink" href="#introduction-to-hpc" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Introduction to HPC</p></li>
+<li><p>Why use vs. local machine</p></li>
+<li><p>Advantages/disadvantages</p></li>
+<li><p>Overview of the SWC/GCNU HPC system</p></li>
+<li><p>SLURM job scheduler</p></li>
+<li><p>How to login</p></li>
+<li><p>Understanding the architecture of the system</p></li>
+<li><p>Storage mounts</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sinfo</span></code>, <code class="docutils literal notranslate"><span class="pre">squeue</span></code></p></li>
+<li><p>Interactive jobs</p></li>
+<li><p>Modules</p></li>
+<li><p>Batch jobs</p></li>
+<li><p>Array jobs</p></li>
+<li><p>How-tos</p>
+<ul>
+<li><p>Using modules</p></li>
+<li><p>Using CUDA</p></li>
+<li><p>Installing your own software (conda, etc.)</p></li>
+</ul>
+</li>
+<li><p>Fair use</p></li>
+</ul>
+</section>
+<section id="applied-hpc-use">
+<h3>Applied HPC Use<a class="headerlink" href="#applied-hpc-use" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>TBC, but may include</p>
+<ul>
+<li><p>Pose estimation</p></li>
+<li><p>BrainSaw atlas registration</p></li>
+<li><p>Running custom scripts</p></li>
+</ul>
+</li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -405,7 +498,12 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#content">Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#content">Content</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-linux-bash">Introduction to Linux &amp; Bash</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-hpc">Introduction to HPC</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#applied-hpc-use">Applied HPC Use</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
