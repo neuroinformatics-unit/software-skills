@@ -1,7 +1,7 @@
 # Introduction to Image Analysis
 
 ## Overview
-This full-day course will introduce some of th fundamentals of image analysis using the popular open-source software - ImageJ.
+This full-day course will introduce some of the fundamentals of image analysis using the popular open-source software - ImageJ.
 
 The course is aimed at those new to image analysis, and no previous experience whatsoever is required
 
@@ -13,8 +13,7 @@ Many of the example images will be from microscopy, but the principles are appli
 
 ## Aims
 * Allow those new to microscopy to feel comfortable carrying out basic image analysis independently.
-* To provide a starting point for the more advanced image analysis methods that are becoming necessary 
-* in many areas of biomedical science.
+* To provide a starting point for the more advanced image analysis methods that are becoming necessary in many areas of biomedical science.
 
 ## Contents
 
