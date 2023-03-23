@@ -1,12 +1,15 @@
 # Introduction to Image Analysis
 
 ## Overview
-Targeted at those new to image analysis. No experience whatsoever is required.
+This full-day course will introduce some of the fundamentals of image analysis using the popular open-source software - ImageJ.
 
-The course will cover some fundamentals of image analysis, using examples in the popular open-source software - ImageJ.
+The course is aimed at those new to image analysis, and no previous experience whatsoever is required
 
-The focus will be on general image analysis principles which can be applied in any software package. Many of the example images will be from microscopy, but the principles are applicable to any imaging modality.
-The aim will be to carry out basic image analysis and visualisation tasks using Python, and create a napari plugin to share the workflow with others.
+**The only requirement is a laptop computer that you have admin access to.** If you don't have this, 
+please get in contact prior to the course.
+
+The focus will be on general image analysis principles which can be applied in any software package. 
+Many of the example images will be from microscopy, but the principles are applicable to any imaging modality.
 
 ## Aims
 * Allow those new to microscopy to feel comfortable carrying out basic image analysis independently.
