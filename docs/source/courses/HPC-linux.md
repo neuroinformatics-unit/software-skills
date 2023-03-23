@@ -43,7 +43,7 @@ effectively use the SWC/GNU High Performance Computing (HPC) system.
 - Overview of the SWC/GCNU HPC system
 - SLURM job scheduler
 - How to login
-- Understanding the archiecture of thesystem
+- Understanding the architecture of the system
 - Storage mounts
 - `sinfo`, `squeue`
 - Interactive jobs
