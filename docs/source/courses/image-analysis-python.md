@@ -21,3 +21,4 @@ This half day course will introduce the use of Python packages to analyse and vi
 
 ## Links
 * [2018 Data Science Bowl data](https://drive.google.com/file/d/1hlDAvRFH7Ax_Nxee4jCyN_IIDax-CLc8/view?usp=sharing)
+* [Sample serial2p data](https://gin.g-node.org/BrainGlobe/demo_materials)
