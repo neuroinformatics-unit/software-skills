@@ -57,6 +57,6 @@ effectively use the SWC/GNU High Performance Computing (HPC) system.
 - Fair use
 
 ### Applied HPC Use
-- Running pose estimation with SLEAP
+Running pose estimation with [SLEAP](https://sleap.ai)
 - [GitHub repository](https://github.com/neuroinformatics-unit/swc-hpc-pose-estimation) with example scripts
 - [Presentation slides](https://neuroinformatics-unit.github.io/swc-hpc-pose-estimation)
