@@ -37,26 +37,21 @@ effectively use the SWC/GNU High Performance Computing (HPC) system.
 
 ### Introduction to HPC 
 
-- Introduction to HPC
-- Why use vs. local machine
-- Advantages/disadvantages
-- Overview of the SWC/GCNU HPC system
-- SLURM job scheduler
-- How to login
-- Understanding the architecture of the system
-- Storage mounts
-- `sinfo`, `squeue`
-- Interactive jobs
-- Modules
-- Batch jobs
-- Array jobs
-- How-tos
-    - Using modules
-    - Using CUDA
-    - Installing your own software (conda, etc.)
-- Fair use
+Introduction to the SWC HPC system:
+* Overview of the SWC/GCNU HPC system
+* SLURM job scheduler
+* Data storage
+* Interactive jobs
+* Batch jobs
+* Array jobs
+
+#### Materials
+- [Slides](../materials/Introduction_to_HPC.pdf)
+
 
 ### Applied HPC Use
 Running pose estimation with [SLEAP](https://sleap.ai)
+
+#### Materials
 - [GitHub repository](https://github.com/neuroinformatics-unit/swc-hpc-pose-estimation) with example scripts
 - [Presentation slides](https://neuroinformatics-unit.github.io/swc-hpc-pose-estimation)
