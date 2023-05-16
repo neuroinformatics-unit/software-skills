@@ -9,16 +9,6 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 ::::{grid} 1 2 2 3
 :gutter: 3
 
-:::{grid-item-card} {fas}`code;sd-text-primary` May 15th 2023
-:link: courses/HPC-linux
-:link-type: doc
-
-Introduction to high-performance computing with Linux
-+++
-SWC Lecture Theatre, UCL <br>
-9am-5.30pm
-:::
-
 :::{grid-item-card} {fa}`file-image;sd-text-primary` May 30th 2023
 :link: courses/introduction-image-analysis
 :link-type: doc
