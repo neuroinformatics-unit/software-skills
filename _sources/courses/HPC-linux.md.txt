@@ -7,33 +7,8 @@ effectively use the SWC/GNU High Performance Computing (HPC) system.
 ## Content
 ### Introduction to Linux & Bash
 
-- Basic introduction to Linux/Unix
-  - Why is Linux used so often in scientific computing?
-- Directory structure
-- Introduction to Bash
-- Navigating file structure
-    - `ls`, `pwd`, `cd`
-- Getting help
-  - `man`, `--help`
-- Debugging errors
-- Creating files
-    - `touch`, `nano`/`vim`, redirect output (`>`, `>>`)
-- Displaying/printing file contents
-    - `echo`, `cat`
-- Moving/renaming/deleting files
-    - `mv`, `rm`, `cp`, `mkdir`
-- Wildcards
-- Pipes
-- Bash scripts
-- Concept of `$PATH`
-- Customization
-  - links, aliases, and `.bashrc` files
-- Permissions
-    - `chmod`, `rwx`, `sudo`
-- Cautions
-    - Deleting files is forever
-    - Spaces in filenames
-    - ...
+#### Materials
+- [Slides](../materials/Introduction_to_Linux.pdf)
 
 ### Introduction to HPC 
 
