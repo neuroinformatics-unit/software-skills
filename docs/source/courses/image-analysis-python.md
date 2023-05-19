@@ -21,5 +21,5 @@ This half day course will introduce the use of Python packages to analyse and vi
 
 ## Links
 * [Course materials](https://github.com/neuroinformatics-unit/image-analysis-python)
-* [2018 Data Science Bowl data](https://drive.google.com/file/d/1hlDAvRFH7Ax_Nxee4jCyN_IIDax-CLc8/view?usp=sharing)
+* [2018 Data Science Bowl data](https://gin.g-node.org/neuroinformatics/image-analysis-courses/raw/master/dsb_2018/stage1_train.zip)
 * [Sample serial2p data](https://gin.g-node.org/BrainGlobe/demo-materials)
