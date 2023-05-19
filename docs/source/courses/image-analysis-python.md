@@ -17,8 +17,9 @@ This half day course will introduce the use of Python packages to analyse and vi
     - Demonstration using BrainSaw data
 
 - **Tools for processing histology data:**
-    - BrainGlobe and ABBA for image registration and segmentation
+    - BrainGlobe tools for image registration and segmentation
 
 ## Links
+* [Course materials](https://github.com/neuroinformatics-unit/image-analysis-python)
 * [2018 Data Science Bowl data](https://drive.google.com/file/d/1hlDAvRFH7Ax_Nxee4jCyN_IIDax-CLc8/view?usp=sharing)
 * [Sample serial2p data](https://gin.g-node.org/BrainGlobe/demo-materials)
