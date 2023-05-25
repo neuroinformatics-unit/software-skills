@@ -9,7 +9,7 @@ This half day course will introduce the use of Python packages to analyse and vi
     - IPython for efficient data exploration
 
 - **Basic image analysis techniques:**
-    - Utilizing NumPy, SciPy, and scikit-image libraries
+    - Utilizing NumPy, and scikit-image libraries
     - Visualization and exploration with napari
 
 - **Processing large datasets effectively:**
@@ -19,7 +19,11 @@ This half day course will introduce the use of Python packages to analyse and vi
 - **Tools for processing histology data:**
     - BrainGlobe tools for image registration and segmentation
 
+:::{note}
+If time allows, we will also look at using convolutional neural networks for tricky segmentation problems. 
+:::
+
 ## Links
 * [Course materials](https://github.com/neuroinformatics-unit/image-analysis-python)
-* [2018 Data Science Bowl data](https://gin.g-node.org/neuroinformatics/image-analysis-courses/raw/master/dsb_2018/stage1_train.zip)
-* [Sample serial2p data](https://gin.g-node.org/BrainGlobe/demo-materials)
+* [Sample data](https://gin.g-node.org/neuroinformatics/image-analysis-courses)
+* [BrainGlobe sample data](https://gin.g-node.org/BrainGlobe/demo-materials)
