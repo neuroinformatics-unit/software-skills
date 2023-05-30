@@ -9,16 +9,6 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 ::::{grid} 1 2 2 3
 :gutter: 3
 
-:::{grid-item-card} {fa}`file-image;sd-text-primary` May 30th 2023
-:link: courses/introduction-image-analysis
-:link-type: doc
-
-Introduction to Image Analysis
-+++
-SWC Lecture Theatre, UCL <br>
-10am-4pm
-:::
-
 :::{grid-item-card} {fa}`file-image;sd-text-primary` June 5th 2023
 :link: courses/image-analysis-python
 :link-type: doc
