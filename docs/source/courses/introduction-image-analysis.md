@@ -38,4 +38,4 @@ Many of the example images will be from microscopy, but the principles are appli
 * [FIJI download (Windows)](https://downloads.imagej.net/fiji/latest/fiji-win64.zip)
 * [FIJI download (Linux)](https://downloads.imagej.net/fiji/latest/fiji-linux64.zip)
 
-* [Deconvolution toolbox](http://bigwww.epfl.ch/deconvolution/deconvolutionlab2/DeconvolutionLab_2.jar)
+* [Deconvolution toolbox](http://bigwww.epfl.ch/deconvolution/deconvolutionlab2/)
