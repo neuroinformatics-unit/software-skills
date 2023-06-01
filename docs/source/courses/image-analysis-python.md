@@ -22,6 +22,33 @@ This half-day course will introduce the use of Python packages to analyse and vi
 :::{note}
 If time allows, we will also look at using convolutional neural networks for tricky segmentation problems. 
 :::
+## In advance of the course
+### Installing packages
+
+Before attending the course, please 
+[install conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) 
+if you don't already have it installed, and then run the following to install all relevant packages:
+
+```bash
+conda create --name image-analysis-python python=3.10 nb_conda_kernels -y
+conda activate image-analysis-python
+git clone https://github.com/neuroinformatics-unit/image-analysis-python
+cd image-analysis-python
+pip install -r requirements.txt
+```
+
+### Download data
+To speed things up on the day, you may wish to download the data in advance. To do this:
+* Start jupyter lab (`jupyter lab`)
+* Open up the first notebook (e.g. `notebooks/skimage_napari`)
+* Set the conda environment (should be `image-analysis-python` based on the above commands)
+* Run the first code cell (the one that says **Run the following cell to download the data in advance** above it!)
+* Repeat for the other notebooks
+
+:::{note}
+The `dask_cellfinder` notebook has the largest sample data, so this is probably the best one to download in advance. 
+Even on a fast (e.g. UCL) network, it may take ~1hr to download.
+:::
 
 ## Links
 * [Course materials](https://github.com/neuroinformatics-unit/image-analysis-python)
