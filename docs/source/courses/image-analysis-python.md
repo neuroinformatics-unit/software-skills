@@ -1,7 +1,7 @@
 # Image Analysis in Python
 
 ## Overview
-This half day course will introduce the use of Python packages to analyse and visualise image data common to neuroscience.
+This half-day course will introduce the use of Python packages to analyse and visualise image data common to neuroscience.
 
 ## Course Summary:
 
@@ -25,5 +25,6 @@ If time allows, we will also look at using convolutional neural networks for tri
 
 ## Links
 * [Course materials](https://github.com/neuroinformatics-unit/image-analysis-python)
+* [Working interactively with Python slides](https://neuroinformatics-unit.github.io/image-analysis-python/)
 * [Sample data](https://gin.g-node.org/neuroinformatics/image-analysis-courses)
 * [BrainGlobe sample data](https://gin.g-node.org/BrainGlobe/demo-materials)
