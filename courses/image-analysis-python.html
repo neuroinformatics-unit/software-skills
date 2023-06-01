@@ -351,7 +351,7 @@ document.write(`
 <h1>Image Analysis in Python<a class="headerlink" href="#image-analysis-in-python" title="Permalink to this heading">#</a></h1>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
-<p>This half day course will introduce the use of Python packages to analyse and visualise image data common to neuroscience.</p>
+<p>This half-day course will introduce the use of Python packages to analyse and visualise image data common to neuroscience.</p>
 </section>
 <section id="course-summary">
 <h2>Course Summary:<a class="headerlink" href="#course-summary" title="Permalink to this heading">#</a></h2>
@@ -363,7 +363,7 @@ document.write(`
 </li>
 <li><p><strong>Basic image analysis techniques:</strong></p>
 <ul>
-<li><p>Utilizing NumPy, SciPy, and scikit-image libraries</p></li>
+<li><p>Utilizing NumPy, and scikit-image libraries</p></li>
 <li><p>Visualization and exploration with napari</p></li>
 </ul>
 </li>
@@ -375,10 +375,71 @@ document.write(`
 </li>
 <li><p><strong>Tools for processing histology data:</strong></p>
 <ul>
-<li><p>BrainGlobe and ABBA for image registration and segmentation</p></li>
+<li><p>BrainGlobe tools for image registration and segmentation</p></li>
 </ul>
 </li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If time allows, we will also look at using convolutional neural networks for tricky segmentation problems.</p>
+</div>
+</section>
+<section id="in-advance-of-the-course">
+<h2>In advance of the course<a class="headerlink" href="#in-advance-of-the-course" title="Permalink to this heading">#</a></h2>
+<section id="installing-packages">
+<h3>Installing packages<a class="headerlink" href="#installing-packages" title="Permalink to this heading">#</a></h3>
+<p>Before attending the course, please
+<a class="reference external" href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html">install conda</a>
+if you don’t already have it installed, and then run the following to install all relevant packages:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span>image-analysis-python<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.10<span class="w"> </span>nb_conda_kernels<span class="w"> </span>-y
+conda<span class="w"> </span>activate<span class="w"> </span>image-analysis-python
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/neuroinformatics-unit/image-analysis-python
+<span class="nb">cd</span><span class="w"> </span>image-analysis-python
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+</section>
+<section id="download-data">
+<h3>Download data<a class="headerlink" href="#download-data" title="Permalink to this heading">#</a></h3>
+<p>To speed things up on the day, you may wish to download the data in advance. To do this:</p>
+<ul class="simple">
+<li><p>Start jupyter lab (<code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">lab</span></code>)</p></li>
+<li><p>Open up the first notebook (e.g. <code class="docutils literal notranslate"><span class="pre">notebooks/skimage_napari</span></code>)</p></li>
+<li><p>Set the conda environment (should be <code class="docutils literal notranslate"><span class="pre">image-analysis-python</span></code> based on the above commands)</p></li>
+<li><p>Run the first code cell (the one that says <strong>Run the following cell to download the data in advance</strong> above it!)</p></li>
+<li><p>Repeat for the other notebooks</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">dask_cellfinder</span></code> notebook has the largest sample data, so this is probably the best one to download in advance.
+Even on a fast (e.g. UCL) network, it may take ~1hr to download.</p>
+</div>
+</section>
+</section>
+<section id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this heading">#</a></h2>
+<section id="course-materials">
+<h3>Course materials<a class="headerlink" href="#course-materials" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/neuroinformatics-unit/image-analysis-python">Notebooks</a></p></li>
+<li><p><a class="reference external" href="https://neuroinformatics-unit.github.io/image-analysis-python/">Working interactively with Python slides</a></p></li>
+<li><p><a class="reference external" href="https://gin.g-node.org/neuroinformatics/image-analysis-courses">Sample data</a></p></li>
+<li><p><a class="reference external" href="https://gin.g-node.org/BrainGlobe/demo-materials">BrainGlobe sample data</a></p></li>
+</ul>
+</section>
+<section id="useful-links">
+<h3>Useful links<a class="headerlink" href="#useful-links" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">miniconda</a></p></li>
+<li><p><a class="reference external" href="https://scikit-image.org/">scikit-image</a></p></li>
+<li><p><a class="reference external" href="https://napari.org">napari</a></p></li>
+<li><p><a class="reference external" href="https://www.dask.org/">dask</a></p></li>
+<li><p><a class="reference external" href="https://brainglobe.info/">BrainGlobe</a></p></li>
+<li><p><a class="reference external" href="https://keras.io/">keras</a></p></li>
+<li><p><a class="reference external" href="https://github.com/InsightSoftwareConsortium/ITKElastix">itk-elastix</a></p></li>
+<li><p><a class="reference external" href="https://www.kaggle.com/c/data-science-bowl-2018">2018 Data Science Bowl</a></p></li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -431,6 +492,16 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#course-summary">Course Summary:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-advance-of-the-course">In advance of the course</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installing-packages">Installing packages</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-data">Download data</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#links">Links</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#course-materials">Course materials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-links">Useful links</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
