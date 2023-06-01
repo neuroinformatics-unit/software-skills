@@ -51,7 +51,18 @@ Even on a fast (e.g. UCL) network, it may take ~1hr to download.
 :::
 
 ## Links
-* [Course materials](https://github.com/neuroinformatics-unit/image-analysis-python)
+### Course materials
+* [Notebooks](https://github.com/neuroinformatics-unit/image-analysis-python)
 * [Working interactively with Python slides](https://neuroinformatics-unit.github.io/image-analysis-python/)
 * [Sample data](https://gin.g-node.org/neuroinformatics/image-analysis-courses)
 * [BrainGlobe sample data](https://gin.g-node.org/BrainGlobe/demo-materials)
+
+### Useful links
+* [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+* [scikit-image](https://scikit-image.org/)
+* [napari](https://napari.org)
+* [dask](https://www.dask.org/)
+* [BrainGlobe](https://brainglobe.info/)
+* [keras](https://keras.io/)
+* [itk-elastix](https://github.com/InsightSoftwareConsortium/ITKElastix)
+* [2018 Data Science Bowl](https://www.kaggle.com/c/data-science-bowl-2018)
