@@ -6,6 +6,21 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 ## Upcoming Courses
 No courses are currently scheduled. 
 
+::::{grid} 1 2 2 3
+:gutter: 3
+
+:::{grid-item-card} {fas}`code;sd-text-primary`  September 21st-22nd 2023
+:link: courses/intro-software-dev
+:link-type: doc
+
+Introduction to Software Development in Python
++++
+Location TBC <br>
+Time TBC
+:::
+
+::::
+
 ## Previous Courses
 
 <!--for fontawesome icons, see https://fontawesome.com/docs/web/setup/get-started-->
