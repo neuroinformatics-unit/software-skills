@@ -15,8 +15,8 @@ No courses are currently scheduled.
 
 Introduction to Software Development in Python
 +++
-Location TBC <br>
-Time TBC
+SWC Lecture Theatre, UCL <br>
+10am - 5pm
 :::
 
 ::::
