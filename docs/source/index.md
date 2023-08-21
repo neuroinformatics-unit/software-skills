@@ -4,8 +4,6 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) and [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit).
 
 ## Upcoming Courses
-No courses are currently scheduled. 
-
 ::::{grid} 1 2 2 3
 :gutter: 3
 
