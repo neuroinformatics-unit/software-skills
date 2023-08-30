@@ -1,11 +1,18 @@
 # Introduction to software development in Python
 
 ## Overview
-Python is one of the most popular programming languages worldwide and is used in all areas of science. As one of the most flexible languages it can be used to automate routine tasks, visualise data, process images and run statistical tests, along with many other applications.
+Python is one of the most popular programming languages worldwide and is used in all areas of science. As one of the 
+most flexible languages it can be used to automate routine tasks, visualise data, process images and run statistical 
+tests, along with many other applications.
 
-The first day of this course will introduce you to the very basics of programming in Python and get you up and running on your own machine. No experience is necessary, all you need is a laptop you can install software on.
+The first day of this course will introduce you to the very basics of programming in Python and get you up and running 
+on your own machine. No experience is necessary, all you need is a laptop you can install software on.
 
-The second day of this course will provide some further Python training, and particularly introduce good practices that will pay dividends as you dive deeper into programming. Additionally, we will introduce version control with Git, a key tool for anyone writing code.
+The second day of this course will provide some further Python training, and particularly introduce good practices that 
+will pay dividends as you dive deeper into programming. 
+
+Additionally, we will introduce the Linux command line, and 
+version control with Git, key tools for anyone working with data and code.
 
 ## Contents
 
@@ -19,9 +26,10 @@ Morning - Introduction
 *   Variables
 *   Data types
 
-Afternoon - General programming
+Afternoon - Linux command line and general programming
 
 *   Morning overview and Q&A
+* Linux command line
 *   Loops
 *   Conditional statements
 *   Loading and saving data
@@ -55,6 +63,7 @@ Afternoon - Further programming
 
 ### Course Materials
 [Slides (Python)](https://docs.google.com/presentation/d/12kxJKIGZdrMGC_UqpDQcRshmw9wzicRmMJOA4AFEwnU/edit?usp=sharing)  
+[Slides (Linux)](https://github.com/raacampbell/linux_cli_intro)
 [Slides (Git)](https://docs.google.com/presentation/d/1HmTqmgB34deJILvPOQtwuaQR_iwGp5AwEwGf7tmx5hE/edit?usp=sharing)  
 [Sample CSV files](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 
