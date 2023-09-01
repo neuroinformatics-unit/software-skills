@@ -63,7 +63,7 @@ Afternoon - Further programming
 
 ### Course Materials
 [Slides (Python)](https://docs.google.com/presentation/d/12kxJKIGZdrMGC_UqpDQcRshmw9wzicRmMJOA4AFEwnU/edit?usp=sharing)  
-[Slides (Linux)](https://github.com/raacampbell/linux_cli_intro)
+[Slides (Linux)](https://github.com/raacampbell/linux_cli_intro)  
 [Slides (Git)](https://docs.google.com/presentation/d/1HmTqmgB34deJILvPOQtwuaQR_iwGp5AwEwGf7tmx5hE/edit?usp=sharing)  
 [Sample CSV files](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
 
