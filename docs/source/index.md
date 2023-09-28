@@ -35,7 +35,7 @@ Room TBC
 :link: courses/video-analysis
 :link-type: doc
 
-Video behavioural analysis
+Video-based analysis of animal behaviour
 +++
 Sainsbury Wellcome Centre, UCL <br>
 Room TBC
