@@ -4,20 +4,7 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) and [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit).
 
 ## Upcoming Courses
-::::{grid} 1 2 2 3
-:gutter: 3
-
-:::{grid-item-card} {fas}`code;sd-text-primary`  September 21st-22nd 2023
-:link: courses/intro-software-dev
-:link-type: doc
-
-Introduction to Software Development in Python
-+++
-SWC Lecture Theatre, UCL <br>
-10am - 5pm
-:::
-
-::::
+No courses are currently scheduled.
 
 ## Previous Courses
 
