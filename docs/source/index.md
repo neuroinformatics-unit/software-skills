@@ -67,7 +67,7 @@ Room TBC
 2pm - 5pm
 :::
 
-:::{grid-item-card} {fas}`file-image;sd-text-primary`  December 4th 2023
+:::{grid-item-card} {fas}`file-image;sd-text-primary`  December 6th 2023
 :link: courses/histology-brainglobe
 :link-type: doc
 
