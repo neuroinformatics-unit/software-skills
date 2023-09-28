@@ -13,5 +13,11 @@ an SWC username and password and be able to
 If you require any assistance, please contact
 <a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a> in advance of the course.
 
+## Instructors
+* [Adam Tyson](https://github.com/adamltyson)
+* [Niko Sirmpilatze ](https://github.com/niksirbi)
+* [Laura Porta](https://github.com/lauraporta)
+
+
 ## Materials
 TBC
