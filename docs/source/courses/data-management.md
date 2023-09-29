@@ -2,7 +2,7 @@
 
 ## Overview
 
-Standardised project folder structures facilitate data sharing and collaboration—as well as making day to day life easier for researchers. This course will introduce current best-practices in neuroscience data management and recent standardisation initiatives.
+Standardised project folders facilitate data sharing and collaboration—as well as making daily life easier for researchers. This course will introduce current best-practices in neuroscience data management and recent standardisation initiatives.
 The primary take-away from this course will be to leave with a strong schema in mind for clean organisation of experimental project data. 
 
 [NeuroBlueprint](https://neuroblueprint.neuroinformatics.dev/), a specification developed here at the SWC to aid standardisation of datasets across the institute, will be covered in detail. 
