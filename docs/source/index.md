@@ -55,17 +55,25 @@ Room TBC
 1pm - 5pm
 :::
 
-:::{grid-item-card} {fas}`file-image;sd-text-primary`  December 5th 2023
-:link: courses/multiphoton-analysis
-:link-type: doc
+[//]: # (:::{grid-item-card} {fas}`file-image;sd-text-primary`  December 5th 2023)
 
-Multiphoton imaging analysis
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Room TBC
+[//]: # (:link: courses/multiphoton-analysis)
 
-2pm - 5pm
-:::
+[//]: # (:link-type: doc)
+
+[//]: # ()
+[//]: # (Multiphoton imaging analysis)
+
+[//]: # (+++)
+
+[//]: # (Sainsbury Wellcome Centre, UCL <br>)
+
+[//]: # (Room TBC)
+
+[//]: # ()
+[//]: # (2pm - 5pm)
+
+[//]: # (:::)
 
 :::{grid-item-card} {fas}`file-image;sd-text-primary`  December 6th 2023
 :link: courses/histology-brainglobe
