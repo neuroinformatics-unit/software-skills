@@ -42,7 +42,7 @@ Room TBC
 
 Wed 8th: 9.30am - 12pm & 3.30pm - 5.30pm
 
-Thu 9th: TBC
+Thu 9th: 9:30am - 12pm & 3.30pm - 5.30 pm
 :::
 
 :::{grid-item-card} {fas}`video;sd-text-primary`  November 29th 2023
