@@ -40,7 +40,7 @@ Extracellular electrophysiology analysis
 Sainsbury Wellcome Centre, UCL <br>
 Room TBC
 
-Wed 8th: 9.30am - 12pm & 3.30pm - 5.30pm
+Wed 8th: 9.30am - 12pm & 1.30pm - 3.30pm
 
 Thu 9th: 9:30am - 12pm & 3.30pm - 5.30 pm
 :::
