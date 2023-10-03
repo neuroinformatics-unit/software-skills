@@ -31,7 +31,7 @@ Brasserie Seminar Room
 10am - 12pm
 :::
 
-:::{grid-item-card} {fas}`bolt;sd-text-primary`  8th & 9th November 2023
+:::{grid-item-card} {fas}`bolt;sd-text-primary`  November 8th & 9th 2023
 :link: courses/extracellular-analysis
 :link-type: doc
 
@@ -40,10 +40,9 @@ Extracellular electrophysiology analysis
 Sainsbury Wellcome Centre, UCL <br>
 Room TBC
 
-Wed 8th: 
-9.30am - 12pm, (break), 3.30pm - 5.30pm
+Wed 8th: 9.30am - 12pm & 3.30pm - 5.30pm
 
-Thu 9th: Time TBC
+Thu 9th: TBC
 :::
 
 :::{grid-item-card} {fas}`video;sd-text-primary`  November 29th 2023
@@ -66,6 +65,7 @@ Running pose estimation on the SWC HPC system
 +++
 Sainsbury Wellcome Centre, UCL <br>
 Ground Floor Lecture Theatre
+
 1pm - 5pm
 :::
 
