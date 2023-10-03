@@ -14,7 +14,7 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 Collaborative coding and software development good practices
 +++
 Sainsbury Wellcome Centre, UCL <br>
-Room TBC
+Brasserie Seminar Room
 
 2pm - 5pm
 :::
@@ -26,7 +26,7 @@ Room TBC
 Data management and sharing
 +++
 Sainsbury Wellcome Centre, UCL <br>
-Room TBC
+Brasserie Seminar Room
 
 10am - 12pm
 :::
@@ -50,8 +50,7 @@ Room TBC
 Running pose estimation on the SWC HPC system
 +++
 Sainsbury Wellcome Centre, UCL <br>
-Room TBC
-
+Ground Floor Lecture Theatre
 1pm - 5pm
 :::
 
