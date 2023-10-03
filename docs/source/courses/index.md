@@ -9,6 +9,13 @@ If you have any questions, or would like to request a course be run again, pleas
 :caption: Projects index
 :hidden:
 
+histology-brainglobe.md
+multiphoton-analysis.md
+hpc-behaviour.md
+video-analysis.md
+extracellular-analysis.md
+data-management.md
+collaborative-coding.md
 image-analysis-python.md
 timeseries-analysis.md
 HPC-linux.md
@@ -16,4 +23,5 @@ introduction-image-analysis.md
 intro-software-dev.md
 python-packaging.md
 type-annotation.md
+
 ```
