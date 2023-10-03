@@ -31,6 +31,21 @@ Brasserie Seminar Room
 10am - 12pm
 :::
 
+:::{grid-item-card} {fas}`bolt;sd-text-primary`  8th & 9th November 2023
+:link: courses/extracellular-analysis
+:link-type: doc
+
+Extracellular electrophysiology analysis
++++
+Sainsbury Wellcome Centre, UCL <br>
+Room TBC
+
+Wed 8th: 
+9.30am - 12pm, (break), 3.30pm - 5.30pm
+
+Thu 9th: Time TBC
+:::
+
 :::{grid-item-card} {fas}`video;sd-text-primary`  November 29th 2023
 :link: courses/video-analysis
 :link-type: doc
@@ -85,21 +100,6 @@ Room TBC
 
 10am - 5pm
 :::
-
-
-:::{grid-item-card} {fas}`bolt;sd-text-primary`  Date TBC
-:link: courses/extracellular-analysis
-:link-type: doc
-
-Extracellular electrophysiology analysis
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Room TBC
-
-Time TBC
-:::
-
-
 
 ::::
 
