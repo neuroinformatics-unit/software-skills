@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>All courses &#8212; SWC/GCNU Software Skills</title>
+    <title>Running pose estimation on the SWC HPC system &#8212; SWC/GCNU Software Skills</title>
   
   
   
@@ -42,12 +42,12 @@
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/design-tabs.js?v=36754332"></script>
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'courses/index';</script>
-    <link rel="canonical" href="https://software-skills.neuroinformatics.dev/courses/index.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'courses/hpc-behaviour';</script>
+    <link rel="canonical" href="https://software-skills.neuroinformatics.dev/courses/hpc-behaviour.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Histology analysis using napari and BrainGlobe" href="histology-brainglobe.html" />
-    <link rel="prev" title="SWC/GCNU Software Skills" href="../index.html" />
+    <link rel="next" title="Video-based analysis of animal behaviour" href="video-analysis.html" />
+    <link rel="prev" title="Multiphoton imaging analysis" href="multiphoton-analysis.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -139,7 +139,7 @@
   <ul class="bd-navbar-elements navbar-nav">
     
                     <li class="nav-item current active">
-                      <a class="nav-link nav-internal" href="#">
+                      <a class="nav-link nav-internal" href="index.html">
                         All courses
                       </a>
                     </li>
@@ -242,7 +242,7 @@ document.write(`
   <ul class="bd-navbar-elements navbar-nav">
     
                     <li class="nav-item current active">
-                      <a class="nav-link nav-internal" href="#">
+                      <a class="nav-link nav-internal" href="index.html">
                         All courses
                       </a>
                     </li>
@@ -292,10 +292,10 @@ document.write(`
      aria-label="Section Navigation">
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
   <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Projects index</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="histology-brainglobe.html">Histology analysis using napari and BrainGlobe</a></li>
 <li class="toctree-l1"><a class="reference internal" href="multiphoton-analysis.html">Multiphoton imaging analysis</a></li>
-<li class="toctree-l1"><a class="reference internal" href="hpc-behaviour.html">Running pose estimation on the SWC HPC system</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Running pose estimation on the SWC HPC system</a></li>
 <li class="toctree-l1"><a class="reference internal" href="video-analysis.html">Video-based analysis of animal behaviour</a></li>
 <li class="toctree-l1"><a class="reference internal" href="extracellular-analysis.html">Extracellular electrophysiology analysis</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data-management.html">Data management and sharing</a></li>
@@ -344,7 +344,10 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">All courses</li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">All courses</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Running...</li>
   </ul>
 </nav>
 </div>
@@ -361,13 +364,34 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="all-courses">
-<h1>All courses<a class="headerlink" href="#all-courses" title="Link to this heading">#</a></h1>
-<p>This page lists all courses that have run (or will be run).</p>
-<p>If you have any questions, or would like to request a course be run again, please contact
-<a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a>.</p>
-<div class="toctree-wrapper compound">
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="running-pose-estimation-on-the-swc-hpc-system">
+<h1>Running pose estimation on the SWC HPC system<a class="headerlink" href="#running-pose-estimation-on-the-swc-hpc-system" title="Link to this heading">#</a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<p>This course will briefly introduce the SWC HPC system and then cover how to run pose estimation at scale on the HPC.</p>
+</section>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">#</a></h2>
+<p>This course will teach HPC usage using video behavioural analysis as an example workflow. Ideally, students should have
+an understanding of pose estimation tools, e.g. by attending the <a class="reference internal" href="video-analysis.html"><span class="doc std std-doc">Video-based analysis of animal behaviour</span></a> course.</p>
+<p>Students should bring their own laptop with Python installed. They should also possess
+an SWC username and password and be able to
+<a class="reference external" href="https://wiki.ucl.ac.uk/display/SSC/Logging+into+the+Cluster">log into the SWC’s HPC cluster</a>.
+If you require any assistance, please contact
+<a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a> in advance of the course.</p>
+</section>
+<section id="instructors">
+<h2>Instructors<a class="headerlink" href="#instructors" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/adamltyson">Adam Tyson</a></p></li>
+<li><p><a class="reference external" href="https://github.com/niksirbi">Niko Sirmpilatze </a></p></li>
+<li><p><a class="reference external" href="https://github.com/lauraporta">Laura Porta</a></p></li>
+</ul>
+</section>
+<section id="materials">
+<h2>Materials<a class="headerlink" href="#materials" title="Link to this heading">#</a></h2>
+<p>TBC</p>
+</section>
 </section>
 
 
@@ -381,20 +405,20 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../index.html"
+       href="multiphoton-analysis.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">SWC/GCNU Software Skills</p>
+        <p class="prev-next-title">Multiphoton imaging analysis</p>
       </div>
     </a>
     <a class="right-next"
-       href="histology-brainglobe.html"
+       href="video-analysis.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Histology analysis using napari and BrainGlobe</p>
+        <p class="prev-next-title">Video-based analysis of animal behaviour</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -408,8 +432,21 @@ document.write(`
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
   <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">Instructors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#materials">Materials</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
-    <a href="../_sources/courses/index.md.txt">
+    <a href="../_sources/courses/hpc-behaviour.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>
