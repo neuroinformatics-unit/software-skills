@@ -52,7 +52,7 @@ Thu 9th: 9:30am - 12pm & 3.30pm - 5.30 pm
 Video-based analysis of animal behaviour
 +++
 Sainsbury Wellcome Centre, UCL <br>
-Room TBC
+Gatsby Seminar Room (3rd floor)
 
 10am - 5pm
 :::
@@ -96,7 +96,7 @@ Ground Floor Lecture Theatre
 Histology analysis using napari and BrainGlobe
 +++
 Sainsbury Wellcome Centre, UCL <br>
-Room TBC
+Gatsby Seminar Room (3rd floor)
 
 10am - 5pm
 :::
