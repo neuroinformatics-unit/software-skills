@@ -96,7 +96,7 @@ Ground Floor Lecture Theatre
 Histology analysis using napari and BrainGlobe
 +++
 Sainsbury Wellcome Centre, UCL <br>
-Room TBC
+Gatsby Seminar Room (3rd floor)
 
 10am - 5pm
 :::
