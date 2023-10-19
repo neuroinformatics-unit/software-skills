@@ -109,53 +109,53 @@ Gatsby Seminar Room (3rd floor)
 ::::{grid} 1 2 2 3
 :gutter: 3
 
-:::{grid-item-card} {fa}`file-image;sd-text-primary` June 5th 2023
+:::{grid-item-card} {fa}`file-image;sd-text-primary` Image Analysis in Python
 :link: courses/image-analysis-python
 :link-type: doc
 
-Image Analysis in Python
+
 :::
 
-:::{grid-item-card} {fa}`file-image;sd-text-primary` May 30th 2023
+:::{grid-item-card} {fa}`file-image;sd-text-primary` Introduction to Image Analysis
 :link: courses/introduction-image-analysis
 :link-type: doc
 
-Introduction to Image Analysis
+
 :::
 
-:::{grid-item-card} {fas}`server;sd-text-primary` May 15th 2023
+:::{grid-item-card} {fas}`server;sd-text-primary` Introduction to high-performance computing with Linux
 :link: courses/HPC-linux
 :link-type: doc
 
-Introduction to high-performance computing with Linux
+
 :::
 
-:::{grid-item-card} {fas}`wave-square;sd-text-primary` March 20th 2023
+:::{grid-item-card} {fas}`wave-square;sd-text-primary` Introduction to Timeseries Analysis in Python
 :link: courses/timeseries-analysis
 :link-type: doc
 
-Introduction to Timeseries Analysis in Python
+
 :::
 
-:::{grid-item-card} {fas}`code;sd-text-primary`  December 1st 2022
+:::{grid-item-card} {fas}`code;sd-text-primary`  Turning your Python scripts into reusable, general-purpose software
 :link: courses/python-packaging
 :link-type: doc
 
-Turning your Python scripts into reusable, general-purpose software
+
 :::
 
-:::{grid-item-card} {fas}`code;sd-text-primary`  November 25th 2022
+:::{grid-item-card} {fas}`code;sd-text-primary`  Type annotation in Python
 :link: courses/type-annotation
 :link-type: doc
 
-Type annotation in Python
+
 :::
 
-:::{grid-item-card} {fas}`code;sd-text-primary`  September 26th-27th 2022
+:::{grid-item-card} {fas}`code;sd-text-primary`  Introduction to Software Development in Python
 :link: courses/intro-software-dev
 :link-type: doc
 
-Introduction to Software Development in Python
+
 :::
 
 ::::
