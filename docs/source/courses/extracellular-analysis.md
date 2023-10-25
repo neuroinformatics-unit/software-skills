@@ -3,7 +3,7 @@
 ## Overview
 
 This two-day course aims to provide a comprehensive introduction to the analysis of in vivo extracellular electrophysiology. This 
-includes spike sorting theory, manual curation and quality checks in Phy, theory of commonly used preprocessing steps, and pipeline development in Python (using [SpikeInterface](https://github.com/SpikeInterface/spikeinterface).
+includes spike sorting theory, manual curation and quality checks in Phy, theory of commonly used preprocessing steps, and pipeline development in Python (using [SpikeInterface](https://github.com/SpikeInterface/spikeinterface)).
 
 On the first day, we will cover:
 - Introduction to the analysis of extracellular electrophysiology data.
