@@ -19,4 +19,4 @@ If you require any assistance, please contact <a href="mailto:j.ziminski@ucl.ac.
 
 ## Materials
 [Slides](https://docs.google.com/presentation/d/12VjY-wAmPpGM6a_kZomWCQLYLsaTL4HZZZiw-LaF1ek/edit?usp=sharing)
-[Materials (GitHub)](https://github.com/neuroinformatics-unit/data-management-course
+[Materials (GitHub)](https://github.com/neuroinformatics-unit/data-management-course)
