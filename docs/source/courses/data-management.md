@@ -18,4 +18,4 @@ Students should bring their own laptop. For the second part of the course coveri
 If you require any assistance, please contact <a href="mailto:j.ziminski@ucl.ac.uk?subject=SWC/GCNU Software Skills">Joe Ziminski</a> in advance of the course.
 
 ## Materials
-TBC
+[Slides](https://docs.google.com/presentation/d/12VjY-wAmPpGM6a_kZomWCQLYLsaTL4HZZZiw-LaF1ek/edit?usp=sharing)
