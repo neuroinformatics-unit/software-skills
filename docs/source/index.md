@@ -4,32 +4,8 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) and [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit).
 
 ## Upcoming Courses
-::::{grid} 1 2 2 3
+::::{grid} 1 2 2 2
 :gutter: 3
-
-:::{grid-item-card} {fas}`code;sd-text-primary`  October 25th 2023
-:link: courses/collaborative-coding
-:link-type: doc
-
-Collaborative coding and software development good practices
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Brasserie Seminar Room
-
-2pm - 5pm
-:::
-
-:::{grid-item-card} {fas}`floppy-disk;sd-text-primary`  October 26th 2023
-:link: courses/data-management
-:link-type: doc
-
-Data management and sharing
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Brasserie Seminar Room
-
-10am - 12pm
-:::
 
 :::{grid-item-card} {fas}`bolt;sd-text-primary`  November 8th & 9th 2023
 :link: courses/extracellular-analysis
@@ -38,11 +14,16 @@ Brasserie Seminar Room
 Extracellular electrophysiology analysis
 +++
 Sainsbury Wellcome Centre, UCL <br>
-Room TBC
 
-Wed 8th: 9.30am - 12pm & 1.30pm - 3.30pm
 
-Thu 9th: 9:30am - 12pm & 3.30pm - 5.30 pm
+Wed 8th: 
+* 9.30am - 12pm (Gatsby Seminar Room)
+* 1.30pm - 3.30pm (Gatsby Seminar Room)
+
+Thu 9th: 
+* 9:00am - 10:45am (Ground Floor Lecture Theatre)
+* 12:30pm - 2.00pm (Brasserie Seminar Room)
+* 3.30pm - 5.30 pm (Brasserie Seminar Room)
 :::
 
 :::{grid-item-card} {fas}`video;sd-text-primary`  November 29th 2023
@@ -108,6 +89,18 @@ Gatsby Seminar Room (3rd floor)
 <!--for fontawesome icons, see https://fontawesome.com/docs/web/setup/get-started-->
 ::::{grid} 1 2 2 3
 :gutter: 3
+
+:::{grid-item-card} {fas}`code;sd-text-primary`  Collaborative coding and software development good practices
+:link: courses/collaborative-coding
+:link-type: doc
+
+:::
+
+:::{grid-item-card} {fas}`floppy-disk;sd-text-primary`  Data management and sharing
+:link: courses/data-management
+:link-type: doc
+
+:::
 
 :::{grid-item-card} {fa}`file-image;sd-text-primary` Image Analysis in Python
 :link: courses/image-analysis-python
