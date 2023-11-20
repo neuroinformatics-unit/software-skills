@@ -7,24 +7,7 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 ::::{grid} 1 2 2 2
 :gutter: 3
 
-:::{grid-item-card} {fas}`bolt;sd-text-primary`  November 8th & 9th 2023
-:link: courses/extracellular-analysis
-:link-type: doc
 
-Extracellular electrophysiology analysis
-+++
-Sainsbury Wellcome Centre, UCL <br>
-
-
-Wed 8th: 
-* 9.30am - 12pm (Gatsby Seminar Room)
-* 1.30pm - 3.30pm (Gatsby Seminar Room)
-
-Thu 9th: 
-* 9:00am - 10:45am (Ground Floor Lecture Theatre)
-* 12:30pm - 2.00pm (Brasserie Seminar Room)
-* 3.30pm - 5.30 pm (Brasserie Seminar Room)
-:::
 
 :::{grid-item-card} {fas}`video;sd-text-primary`  November 29th 2023
 :link: courses/video-analysis
@@ -89,6 +72,12 @@ Gatsby Seminar Room (3rd floor)
 <!--for fontawesome icons, see https://fontawesome.com/docs/web/setup/get-started-->
 ::::{grid} 1 2 2 3
 :gutter: 3
+
+:::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
+:link: courses/extracellular-analysis
+:link-type: doc
+
+:::
 
 :::{grid-item-card} {fas}`code;sd-text-primary`  Collaborative coding and software development good practices
 :link: courses/collaborative-coding
