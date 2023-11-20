@@ -116,3 +116,5 @@ html_theme_options = {
     "footer_start": ["footer_start"],
     "footer_end": ["footer_end"]
 }
+
+linkcheck_ignore = ["https://keras.io/"]
