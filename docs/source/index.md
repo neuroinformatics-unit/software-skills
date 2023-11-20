@@ -76,68 +76,51 @@ Gatsby Seminar Room (3rd floor)
 :::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
 :link: courses/extracellular-analysis
 :link-type: doc
-
 :::
 
 :::{grid-item-card} {fas}`code;sd-text-primary`  Collaborative coding and software development good practices
 :link: courses/collaborative-coding
 :link-type: doc
-
 :::
 
 :::{grid-item-card} {fas}`floppy-disk;sd-text-primary`  Data management and sharing
 :link: courses/data-management
 :link-type: doc
-
 :::
 
 :::{grid-item-card} {fa}`file-image;sd-text-primary` Image Analysis in Python
 :link: courses/image-analysis-python
 :link-type: doc
-
-
 :::
 
 :::{grid-item-card} {fa}`file-image;sd-text-primary` Introduction to Image Analysis
 :link: courses/introduction-image-analysis
 :link-type: doc
-
-
 :::
 
 :::{grid-item-card} {fas}`server;sd-text-primary` Introduction to high-performance computing with Linux
 :link: courses/HPC-linux
 :link-type: doc
-
-
 :::
 
 :::{grid-item-card} {fas}`wave-square;sd-text-primary` Introduction to Timeseries Analysis in Python
 :link: courses/timeseries-analysis
 :link-type: doc
-
-
 :::
 
 :::{grid-item-card} {fas}`code;sd-text-primary`  Turning your Python scripts into reusable, general-purpose software
 :link: courses/python-packaging
 :link-type: doc
-
-
 :::
 
 :::{grid-item-card} {fas}`code;sd-text-primary`  Type annotation in Python
 :link: courses/type-annotation
 :link-type: doc
-
-
 :::
 
 :::{grid-item-card} {fas}`code;sd-text-primary`  Introduction to Software Development in Python
 :link: courses/intro-software-dev
 :link-type: doc
-
-
 :::
 
 ::::
