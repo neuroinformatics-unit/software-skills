@@ -76,6 +76,13 @@ exclude_patterns = [
 ]
 
 
+# The linkcheck builder will skip verifying that anchors exist when checking
+# these URLs
+linkcheck_anchors_ignore_for_url = [
+    "https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023",
+    "https://neuroinformatics.dev/course-behavioural-analysis-2023/"
+]
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for

@@ -18,28 +18,34 @@ This will be an introductory course on analysing animal behaviour from video dat
   - Time spent in regions of interest
 
 Training and prediction with pose estimation models are
-GPU-intensive tasks. Since many students will not have access to a GPU on their own machine, 
+GPU-intensive tasks.
+Since many students will not have access to a GPU on their own machine, 
 we highly recommend that they also attend the follow-up course on 
 [Running pose estimation on the SWC HPC system](./hpc-behaviour). 
 This will cover how to run pose estimation at scale, using the GPUs of the SWC HPC cluster.
 
 ## Prerequisites
-Students should bring their own laptop with Python installed. If you require any assistance, please contact
-<a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a> in advance of the course.
+Make sure to follow the [steps outlined here](https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023#prerequisites) which will be guide you through
+setting up your laptop, installing the required software, and downloading the sample data.
 
-To get the most out of the course, students should install [SLEAP](https://sleap.ai/) on their laptops. 
-This will allow them to follow along
-such tasks as labelling animal body parts on a video and preparing the training data. 
-We recommend following the [official installation instructions](https://sleap.ai/installation.html),
-which may defer depending on your operating system.
-If your machine doesn't include a GPU, you may ignore the [GPU support](https://sleap.ai/installation.html#gpu-support) section of the installation instructions.
-If you encounter problems with installing SLEAP, contact
-<a href="mailto:n.sirmpilatze@ucl.ac.uk?subject=SWC/GCNU Software Skills">Niko Sirmpilatze</a> in advance of the course.
+If you encounter issues with any of these steps please contact 
+<a href="mailto:n.sirmpilatze@ucl.ac.uk?subject=SWC/GCNU Software Skills">Niko Sirmpilatze</a>
+in advance of the course.
+You may also drop by our office hours at the SWC Library (5th floor) on Friday Nov 24th, 13:00-16:00.
 
-Optionally, the students are welcome to bring along any animal videos they would like to analyse.
-This could simply be a video of your pet, or of the London fox you spotted in your garden last night.
 
 ## Materials
-- [Recommended paper to read](https://www.nature.com/articles/s41593-020-00734-z)
-- Slides (TBC)
-- GitHub repository (TBC)
+- [GitHub repository](https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023)
+- [Slides](https://neuroinformatics.dev/course-behavioural-analysis-2023/#/title-slide)
+- [Sample data]()
+- Useful links:
+  - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+  - [SLEAP](https://sleap.ai/)
+  - [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut)
+  - [LightningPose](https://github.com/danbider/lightning-pose)
+  - [movement](https://movement.neuroinformatics.dev/)
+  - [keypoint-moseq](https://keypoint-moseq.readthedocs.io/en/latest/index.html)
+- Recommended readings:
+  - [Neuroscience Needs Behavior: Correcting a Reductionist Bias](https://www.sciencedirect.com/science/article/pii/S0896627316310406?via%3Dihub)
+  - [Quantifying behavior to understand the brain](https://www.nature.com/articles/s41593-020-00734-z)
+  - [Open-source tools for behavioral video analysis: Setup, methods, and best practices](https://elifesciences.org/articles/79305)
