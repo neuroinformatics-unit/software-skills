@@ -37,15 +37,17 @@ You may also drop by our office hours at the SWC Library (5th floor) on Friday N
 ## Materials
 - [GitHub repository](https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023)
 - [Slides](https://neuroinformatics.dev/course-behavioural-analysis-2023/#/title-slide)
-- [Sample data]()
-- Useful links:
-  - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
-  - [SLEAP](https://sleap.ai/)
-  - [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut)
-  - [LightningPose](https://github.com/danbider/lightning-pose)
-  - [movement](https://movement.neuroinformatics.dev/)
-  - [keypoint-moseq](https://keypoint-moseq.readthedocs.io/en/latest/index.html)
-- Recommended readings:
-  - [Neuroscience Needs Behavior: Correcting a Reductionist Bias](https://www.sciencedirect.com/science/article/pii/S0896627316310406?via%3Dihub)
-  - [Quantifying behavior to understand the brain](https://www.nature.com/articles/s41593-020-00734-z)
-  - [Open-source tools for behavioral video analysis: Setup, methods, and best practices](https://elifesciences.org/articles/79305)
+- [Sample data](https://www.dropbox.com/scl/fo/i48dn2yqr0p8jrhe7asbq/h?rlkey=6w0sos8w0pz86553cq7866z0f&dl=0)
+
+Useful links:
+- [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- [SLEAP](https://sleap.ai/)
+- [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut)
+- [LightningPose](https://github.com/danbider/lightning-pose)
+- [movement](https://movement.neuroinformatics.dev/)
+- [keypoint-moseq](https://keypoint-moseq.readthedocs.io/en/latest/index.html)
+
+Recommended readings:
+- [Neuroscience Needs Behavior: Correcting a Reductionist Bias](https://www.sciencedirect.com/science/article/pii/S0896627316310406?via%3Dihub)
+- [Quantifying behavior to understand the brain](https://www.nature.com/articles/s41593-020-00734-z)
+- [Open-source tools for behavioral video analysis: Setup, methods, and best practices](https://elifesciences.org/articles/79305)
