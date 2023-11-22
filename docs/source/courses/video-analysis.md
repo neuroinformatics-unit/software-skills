@@ -37,7 +37,7 @@ You may also drop by our office hours at the SWC Library (5th floor) on Friday N
 ## Materials
 - [GitHub repository](https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023)
 - [Slides](https://neuroinformatics.dev/course-behavioural-analysis-2023/#/title-slide)
-- [Sample data](https://www.dropbox.com/scl/fo/i48dn2yqr0p8jrhe7asbq/h?rlkey=6w0sos8w0pz86553cq7866z0f&dl=0)
+- [Sample data](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&dl=0) - link expires on 2023-12-22
 
 Useful links:
 - [miniconda](https://docs.conda.io/en/latest/miniconda.html)
