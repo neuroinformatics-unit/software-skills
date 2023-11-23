@@ -31,7 +31,7 @@ setting up your laptop, installing the required software, and downloading the sa
 If you encounter issues with any of these steps please contact 
 <a href="mailto:n.sirmpilatze@ucl.ac.uk?subject=SWC/GCNU Software Skills">Niko Sirmpilatze</a>
 in advance of the course.
-You may also drop by our office hours at the SWC Library (5th floor) on Friday Nov 24th, 13:00-16:00.
+You may also drop by our office hours at the SWC Library (5th floor) on **Friday Nov 24th, 13:30-16:00**.
 
 
 ## Materials
