@@ -25,7 +25,7 @@ we highly recommend that they also attend the follow-up course on
 This will cover how to run pose estimation at scale, using the GPUs of the SWC HPC cluster.
 
 ## Prerequisites
-Make sure to follow the [steps outlined here](https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023#prerequisites) which will be guide you through
+Make sure to follow the [steps outlined here](https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023#prerequisites) which will guide you through
 setting up your laptop, installing the required software, and downloading the sample data.
 
 If you encounter issues with any of these steps please contact 
