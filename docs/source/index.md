@@ -8,19 +8,6 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 :gutter: 3
 
 
-
-:::{grid-item-card} {fas}`video;sd-text-primary`  November 29th 2023
-:link: courses/video-analysis
-:link-type: doc
-
-Video-based analysis of animal behaviour
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Gatsby Seminar Room (3rd floor)
-
-10am - 5pm
-:::
-
 :::{grid-item-card} {fas}`server;sd-text-primary`  December 4th 2023
 :link: courses/hpc-behaviour
 :link-type: doc
@@ -66,6 +53,11 @@ Gatsby Seminar Room (3rd floor)
 <!--for fontawesome icons, see https://fontawesome.com/docs/web/setup/get-started-->
 ::::{grid} 1 2 2 3
 :gutter: 3
+
+:::{grid-item-card} {fas}`video;sd-text-primary`  Video-based analysis of animal behaviour
+:link: courses/video-analysis
+:link-type: doc
+:::
 
 :::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
 :link: courses/extracellular-analysis
