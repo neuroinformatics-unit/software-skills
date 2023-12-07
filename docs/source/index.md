@@ -4,55 +4,52 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) and [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit).
 
 ## Upcoming Courses
-::::{grid} 1 2 2 2
-:gutter: 3
 
+No courses are currently scheduled. 
 
-:::{grid-item-card} {fas}`server;sd-text-primary`  December 4th 2023
-:link: courses/hpc-behaviour
-:link-type: doc
+[//]: # (::::{grid} 1 2 2 2)
 
-Running pose estimation on the SWC HPC system
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Ground Floor Lecture Theatre
+[//]: # (:gutter: 3)
 
-1pm - 5pm
-:::
+[//]: # ()
+[//]: # ()
+[//]: # (:::{grid-item-card} {fas}`server;sd-text-primary` Date)
 
-:::{grid-item-card} {fas}`file-image;sd-text-primary`  December 5th 2023
-:link: courses/multiphoton-analysis
-:link-type: doc
+[//]: # (:link: courses/course-file)
 
-Multiphoton imaging analysis
+[//]: # (:link-type: doc)
 
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Ground Floor Lecture Theatre
+[//]: # ()
+[//]: # (Course title)
 
-2pm - 5pm
+[//]: # (+++)
 
-:::
+[//]: # (Sainsbury Wellcome Centre, UCL <br>)
 
-:::{grid-item-card} {fas}`file-image;sd-text-primary`  December 6th 2023
-:link: courses/histology-brainglobe
-:link-type: doc
+[//]: # (Room)
 
-Histology analysis using napari and BrainGlobe
-+++
-Sainsbury Wellcome Centre, UCL <br>
-Gatsby Seminar Room (3rd floor)
+[//]: # ()
+[//]: # (Time)
 
-10am - 5pm
-:::
+[//]: # (:::)
 
-::::
+[//]: # (::::)
 
 ## Previous Courses
 
 <!--for fontawesome icons, see https://fontawesome.com/docs/web/setup/get-started-->
 ::::{grid} 1 2 2 3
 :gutter: 3
+
+:::{grid-item-card} {fas}`server;sd-text-primary`  Running pose estimation on the SWC HPC system
+:link: courses/hpc-behaviour
+:link-type: doc
+:::
+
+:::{grid-item-card} {fas}`file-image;sd-text-primary`  Histology analysis using napari and BrainGlobe
+:link: courses/histology-brainglobe
+:link-type: doc
+:::
 
 :::{grid-item-card} {fas}`video;sd-text-primary`  Video-based analysis of animal behaviour
 :link: courses/video-analysis
