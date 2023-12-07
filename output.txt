@@ -1,5 +1,5 @@
-courses/intro-software-dev.md:71: [redirected permanently] http://swcarpentry.github.io/shell-novice to https://swcarpentry.github.io/shell-novice/
 courses/intro-software-dev.md:71: [redirected permanently] http://swcarpentry.github.io/git-novice to https://swcarpentry.github.io/git-novice/
+courses/intro-software-dev.md:71: [redirected permanently] http://swcarpentry.github.io/shell-novice to https://swcarpentry.github.io/shell-novice/
 courses/data-management.md:23: [redirected permanently] https://github.com/neuroinformatics-unit/data-management-course to https://github.com/neuroinformatics-unit/course-data-management-2023
 courses/timeseries-analysis.md:22: [redirected permanently] https://github.com/neuroinformatics-unit/swc-timeseries-analysis-course-2023 to https://github.com/neuroinformatics-unit/course-swc-timeseries-analysis-2023
 courses/intro-software-dev.md:65: [redirected permanently] https://github.com/raacampbell/linux_cli_intro to https://github.com/SWC-Advanced-Microscopy/linux_cli_intro
