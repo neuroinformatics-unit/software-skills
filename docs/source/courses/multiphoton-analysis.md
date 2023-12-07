@@ -10,7 +10,7 @@ This course will be delivered by [Petr Znamenskiy](https://www.crick.ac.uk/resea
 * [CaImAn](https://caiman.readthedocs.io/en/latest/) and other end-to-end pipelines
 
 ## Prerequisites
-TBC
+* Basic Python knowledge
 
 ## Materials
-TBC
+* [Notebooks & Data](https://drive.google.com/drive/folders/1gf_FNmI1mgAAeFcDshFZ3m97ucGwuroz?usp=drive_link)
