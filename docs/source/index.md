@@ -56,6 +56,11 @@ No courses are currently scheduled.
 :link-type: doc
 :::
 
+:::{grid-item-card} {fas}`file-image;sd-text-primary`  Multiphoton imaging analysis
+:link: courses/multiphoton-analysis
+:link-type: doc
+:::
+
 :::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
 :link: courses/extracellular-analysis
 :link-type: doc
