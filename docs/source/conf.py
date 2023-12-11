@@ -79,10 +79,10 @@ exclude_patterns = [
 # The linkcheck builder will skip verifying that anchors exist when checking
 # these URLs
 linkcheck_anchors_ignore_for_url = [
-    "https://github.com/neuroinformatics-unit/course-behavioural-analysis-2023",
-    "https://neuroinformatics.dev/course-behavioural-analysis-2023/",
-    "https://github.com/neuroinformatics-unit/course-software-skills-hpc",
-    "https://neuroinformatics.dev/course-software-skills-hpc/",
+    "https://github.com/neuroinformatics-unit/course-behavioural-analysis/",
+    "https://neuroinformatics.dev/course-behavioural-analysis/",
+    "https://github.com/neuroinformatics-unit/course-behaviour-hpc",
+    "https://neuroinformatics.dev/course-behaviour-hpc/",
 ]
 
 # -- Options for HTML output -------------------------------------------------
