@@ -20,5 +20,5 @@ If you require any assistance, please contact
 
 
 ## Materials
-* [Slides](https://neuroinformatics.dev/course-behaviour-hpc/#/title-slide)
+* [Slides](https://neuroinformatics.dev/course-behaviour-hpc)
 * [GitHub repository](https://github.com/neuroinformatics-unit/course-behaviour-hpc)
