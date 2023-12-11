@@ -20,5 +20,5 @@ If you require any assistance, please contact
 
 
 ## Materials
-* [Slides](https://neuroinformatics.dev/course-software-skills-hpc/#/title-slide)
-* [GitHub repository](https://github.com/neuroinformatics-unit/course-software-skills-hpc)
+* [Slides](https://neuroinformatics.dev/course-behaviour-hpc)
+* [GitHub repository](https://github.com/neuroinformatics-unit/course-behaviour-hpc)
