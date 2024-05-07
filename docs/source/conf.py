@@ -107,7 +107,6 @@ html_css_files = [
     'css/custom.css',
 ]
 
-## Cutomize the theme
 html_theme_options = {
     "icon_links": [
         {
@@ -119,12 +118,17 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
             # The type of image to be used (see below for details)
             "type": "fontawesome",
-        },
-
-   ],
+        }
+    ],
+    "logo": {
+        "text": "Software skills",
+        "image_light": "logo_light.png",
+        "image_dark": "logo_dark.png",
+    },
     "footer_start": ["footer_start"],
-    "footer_end": ["footer_end"]
+    "footer_end": ["footer_end"],
 }
+
 
 linkcheck_ignore = [
     "https://keras.io/",
