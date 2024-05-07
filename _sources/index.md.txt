@@ -1,7 +1,9 @@
 # SWC/GCNU Software Skills
 
+
 Computational skills training at the [UCL](https://www.ucl.ac.uk/) 
-[Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) and [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit).
+[Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/) and [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit), delivered by members of 
+the [Neuroinformatics Unit](https://neuroinformatics.dev).
 
 ## Upcoming Courses
 
