@@ -18,42 +18,22 @@ version control with Git, key tools for anyone working with data and code.
 
 **Day 1**
 
-Morning - Introduction
-
 *   Introduction to Python
 *   Installing Python
 *   Editing Python files (IDE, text editor etc.)
 *   Variables
 *   Data types
-
-Afternoon - Linux command line and general programming
-
-*   Morning overview and Q&A
-* Linux command line
 *   Loops
 *   Conditional statements
+*   List comprehension
 *   Loading and saving data
 *   Writing your first Python script
-*   Installing packages with pip
 
 **Day 2**
 
-Morning - Introduction to version control with Git
-
-*   Why is version control important?
-*   Getting started (setting up git)
-*   Basic commands (add / commit / diff)
-*   Inspecting git history (checkout)
-*   GitHub
-*   Workflows (branches)
-
-Afternoon - Further programming
-
-*   Working with virtual environments
 *   Using third party libraries from pip and conda
-*   List comprehensions
 *   Functions
-*   Object oriented programming
+*   Classes and objects
 *   Errors and exceptions
 *   Organising your Python project and importing functions
 *   Documenting your code
@@ -62,21 +42,20 @@ Afternoon - Further programming
 ## Links
 
 ### Course Materials
-[Slides (Python)](https://docs.google.com/presentation/d/12kxJKIGZdrMGC_UqpDQcRshmw9wzicRmMJOA4AFEwnU/edit?usp=sharing)  
-[Slides (Linux)](https://github.com/raacampbell/linux_cli_intro)  
-[Slides (Git)](https://docs.google.com/presentation/d/1HmTqmgB34deJILvPOQtwuaQR_iwGp5AwEwGf7tmx5hE/edit?usp=sharing)  
-[Sample CSV files](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
+[Slides (Python)](https://docs.google.com/presentation/d/11URuWOxi5TMbeJNo4R1NWfBQ_ZPNFpe6YU6dvLAVcYQ/edit?usp=sharing)
 
 ### Links
 [Further bash materials](http://swcarpentry.github.io/shell-novice)  
 [Further git materials](http://swcarpentry.github.io/git-novice)
 
-[Miniconda installer (OSX, Intel)](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg)  
-[Miniconda installer (OSX, Apple Silicon)](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg)  
-[Miniconda installer (Windows)](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe)  
-[Miniconda installer (Linux)](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh)
+[Git installer](https://git-scm.com/downloads)
 
-[Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+[Miniforge installer (OSX, Intel)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh)  
+[Miniforge installer (OSX, Apple Silicon)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)  
+[Miniforge installer (Windows)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe)  
+[Miniforge installer (Linux)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh)
+
+[Miniforge](https://github.com/conda-forge/miniforge)
 
 ### IDEs
 [PyCharm](https://www.jetbrains.com/pycharm/)  
