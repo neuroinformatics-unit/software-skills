@@ -102,3 +102,7 @@ The aims of the course are
 * and to get an initial idea of how structure, document and test your code.
 
 Instructors: Stephen Lenzi, Laura Porta, Alessandro Felder
+
+## Histology analysis
+
+Full details can be found on the [course webpage](https://brainglobe.info/community/courses/scheduled/oct-2024/index.html).
