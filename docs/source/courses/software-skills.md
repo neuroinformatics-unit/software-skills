@@ -33,3 +33,55 @@ using leading open-source software tools. This course will also include some gen
 ### Tuesday, October 8th
 - 10:00-11:00: Histology analysis (2) (SWC Ground Floor Lecture Theatre)
 - 14:00-17:00: Histology analysis (3)  (SWC Brasserie Seminar Room)
+
+
+## Introduction to Python
+The aim of the course is to introduce basic concepts of programming in Python, and establish a community of Python users. It is a hands-on course, in which we will guide you 
+through the process of writing your first Python script and teach you some best practices.
+
+The course will run over two days.
+
+Instructors: Igor Tatarnikov, Sofía Miñano
+
+**Day 1**
+
+Morning 
+* Aims
+* Why learn Python?
+* How to work with Python?
+* Basics of programming (1/2)
+    - Variables
+    - Data types
+
+Afternoon 
+* Basics of programming (2/2)
+    - Loops
+    - Conditional statements
+    - List comprehensions
+* Writing your first Python script
+* Loading and saving data
+
+
+**Day 2**
+
+Morning
+* Recap and Q&A
+* Using third party libraries
+* Functions and methods
+* Classes and objects
+
+Afternoon
+* Errors and exceptions
+* Organising your code
+* Documenting your code
+
+
+### Course materials
+- [Slides](https://docs.google.com/presentation/d/11URuWOxi5TMbeJNo4R1NWfBQ_ZPNFpe6YU6dvLAVcYQ/edit?usp=sharing)
+- [Site for the 2023/2024 course](https://software-skills.neuroinformatics.dev/courses/intro-software-dev.html)
+
+
+### Additional resources
+- [Miniforge installers](https://github.com/conda-forge/miniforge#download)
+- [PyCharm](https://www.jetbrains.com/pycharm/)  
+- [VS Code](https://code.visualstudio.com/)  
