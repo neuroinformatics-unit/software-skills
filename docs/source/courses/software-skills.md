@@ -85,3 +85,11 @@ Part 2
 - [Miniforge installers](https://github.com/conda-forge/miniforge#download)
 - [PyCharm](https://www.jetbrains.com/pycharm/)  
 - [VS Code](https://code.visualstudio.com/)  
+
+## Data Management and Sharing
+
+ This course will introduce current best-practices in neuroscience data management 
+ and recent standardisation initiatives. The primary take-away from this course 
+ will be to leave with a strong schema in mind for clean organisation of experimental project data.
+
+Full details can be found on the [course webpage](https://software-skills.neuroinformatics.dev/courses/data-management.html)
