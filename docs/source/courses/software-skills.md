@@ -93,3 +93,12 @@ Part 2
  will be to leave with a strong schema in mind for clean organisation of experimental data.
 
 Full details can be found on the [course webpage](https://software-skills.neuroinformatics.dev/courses/data-management.html)
+
+## Version control and software development best practices
+
+The aims of the course are
+* to learn how to keep track of changes to your code with Git and GitHub, 
+* to learn how to work with others on code
+* and to get an initial idea of how structure, document and test your code.
+
+Instructors: Stephen Lenzi, Laura Porta, Alessandro Felder
