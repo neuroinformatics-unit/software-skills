@@ -39,13 +39,13 @@ using leading open-source software tools. This course will also include some gen
 The aim of the course is to introduce basic concepts of programming in Python, and establish a community of Python users. It is a hands-on course, in which we will guide you 
 through the process of writing your first Python script and teach you some best practices.
 
-The course will run over two days.
+The course will run over two days, 2.5-3h per day with a break in between.
 
 Instructors: Igor Tatarnikov, Sofía Miñano
 
 **Day 1**
 
-Morning 
+Part 1 
 * Aims
 * Why learn Python?
 * How to work with Python?
@@ -53,7 +53,7 @@ Morning
     - Variables
     - Data types
 
-Afternoon 
+Part 2 
 * Basics of programming (2/2)
     - Loops
     - Conditional statements
@@ -64,13 +64,13 @@ Afternoon
 
 **Day 2**
 
-Morning
+Part 1
 * Recap and Q&A
 * Using third party libraries
 * Functions and methods
 * Classes and objects
 
-Afternoon
+Part 2
 * Errors and exceptions
 * Organising your code
 * Documenting your code
