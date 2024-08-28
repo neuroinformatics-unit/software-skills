@@ -88,8 +88,8 @@ Part 2
 
 ## Data Management and Sharing
 
- This course will introduce current best-practices in neuroscience data management 
- and recent standardisation initiatives. The primary take-away from this course 
- will be to leave with a strong schema in mind for clean organisation of experimental project data.
+ This course will introduce best-practices in neuroscience data management 
+ and cover recent standardisation initiatives. The primary take-away from this course 
+ will be to leave with a strong schema in mind for clean organisation of experimental data.
 
 Full details can be found on the [course webpage](https://software-skills.neuroinformatics.dev/courses/data-management.html)
