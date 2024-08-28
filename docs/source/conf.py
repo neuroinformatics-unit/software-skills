@@ -134,5 +134,5 @@ linkcheck_ignore = [
     "https://keras.io/",
     "https://wiki.ucl.ac.uk",
     "https://www.dropbox.com",
-    "https://www.sciencedirect.com/science/article/pii/S0896627316310406?via%3Dihub",
+    "https://www.cell.com/neuron/pdf/S0896-6273(16)31040-6.pdf",
 ]
