@@ -1,3 +1,4 @@
+(#video-analysis)=
 # Video-based analysis of animal behaviour
 
 ## Overview

@@ -19,8 +19,8 @@ using leading open-source software tools. This course will also include some gen
 - 13:30-17:00: Version control and software development best practices (GCNU Seminar Room)
 
 ### Thursday, October 3rd
-- 10:00-13:00: Video behavioural analysis (1) (SWC Brasserie Seminar Room)
-- 14:00-17:00: Video behavioural analysis (2) (SWC Brasserie Seminar Room)
+- 10:00-13:00: Video-based analysis of animal behaviour (1) (SWC Brasserie Seminar Room)
+- 14:00-17:00: Video-based analysis of animal behaviour (2) (SWC Brasserie Seminar Room)
 
 ### Friday, October 4th
 - 14:00-17:00: Linux and high-performance computing (SWC Ground Floor Lecture Theatre)
@@ -102,6 +102,17 @@ The aims of the course are
 * and to get an initial idea of how structure, document and test your code.
 
 Instructors: Stephen Lenzi, Laura Porta, Alessandro Felder
+
+## Video-based analysis of animal behaviour
+
+This course will introduce the theory and practice of tracking animals in videos to quantify their behaviour.
+Participants will get to train pose estimation models
+with [SLEAP](https://sleap.ai/), analyse pose tracks
+with [movement](https://movement.neuroinformatics.dev/), and extract behavioural syllables with [keypoint-moseq](https://keypoint-moseq.readthedocs.io/en/latest/index.html). 
+
+Full details can be found on the [course webpage](video-analysis).
+
+Instructors: Niko Sirmpilatze, Chang Huan Lo, Sofía Miñano
 
 ## Histology analysis
 
