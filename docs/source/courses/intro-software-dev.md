@@ -11,8 +11,6 @@ on your own machine. No experience is necessary, all you need is a laptop you ca
 The second day of this course will provide some further Python training, and particularly introduce good practices that 
 will pay dividends as you dive deeper into programming. 
 
-Additionally, we will introduce the Linux command line, and 
-version control with Git, key tools for anyone working with data and code.
 
 ## Contents
 
@@ -50,12 +48,12 @@ version control with Git, key tools for anyone working with data and code.
 
 [Git installer](https://git-scm.com/downloads)
 
+[Miniforge](https://github.com/conda-forge/miniforge)
+
 [Miniforge installer (OSX, Intel)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh)  
 [Miniforge installer (OSX, Apple Silicon)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh)  
 [Miniforge installer (Windows)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe)  
 [Miniforge installer (Linux)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh)
-
-[Miniforge](https://github.com/conda-forge/miniforge)
 
 ### IDEs
 [PyCharm](https://www.jetbrains.com/pycharm/)  
