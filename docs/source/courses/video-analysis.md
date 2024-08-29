@@ -34,7 +34,7 @@ in advance of the course.
 ## Materials
 - [GitHub repository](https://github.com/neuroinformatics-unit/course-behavioural-analysis)
 - [Slides](https://neuroinformatics.dev/course-behavioural-analysis/#/title-slide)
-- [Sample data](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&st=3yjlu70e&dl=0)
+- [Sample data](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&st=zolupk4i&dl=0)
 
 Useful links:
 - [SLEAP](https://sleap.ai/)
