@@ -90,6 +90,9 @@ The aims of the course are
 * to learn how to work with others on code
 * and to get an initial idea of how structure, document and test your code.
 
+[Git and Github slides for 2023/2024 course](https://github.com/neuroinformatics-unit/software-skills/pull/51/files#diff-d50b1c964dbad77746daa1863e9f82e64de3c0ae52716c4d42ae45ccc575824d)
+[Site for software development best practice](collaborative-coding)
+
 Instructors: Stephen Lenzi, Laura Porta, Alessandro Felder
 
 ## Video-based analysis of animal behaviour
