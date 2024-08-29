@@ -12,3 +12,8 @@ an SWC username and password and be able to
 [log into the SWC's HPC cluster](https://wiki.ucl.ac.uk/display/SSC/Logging+into+the+Cluster).
 If you require any assistance, please contact
 <a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a> in advance of the course.
+
+
+## Materials
+* [Slides](https://neuroinformatics.dev/course-behaviour-hpc)
+* [GitHub repository](https://github.com/neuroinformatics-unit/course-behaviour-hpc)
