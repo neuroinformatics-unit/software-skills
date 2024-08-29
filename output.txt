@@ -4,7 +4,7 @@ courses/introduction-image-analysis.md:41: [redirected permanently] http://bigww
 courses/data-management.md:23: [redirected permanently] https://github.com/neuroinformatics-unit/data-management-course to https://github.com/neuroinformatics-unit/course-data-management-neuroblueprint
 courses/extracellular-analysis.md:36: [redirected permanently] https://github.com/neuroinformatics-unit/extracellular-ephys-analysis-course-2023 to https://github.com/neuroinformatics-unit/course-extracellular-ephys-analysis
 courses/timeseries-analysis.md:22: [redirected permanently] https://github.com/neuroinformatics-unit/swc-timeseries-analysis-course-2023 to https://github.com/neuroinformatics-unit/course-swc-timeseries-analysis-2023
-courses/intro-software-dev.md:65: [redirected permanently] https://github.com/raacampbell/linux_cli_intro to https://github.com/SWC-Advanced-Microscopy/linux_cli_intro
 courses/image-analysis-python.md:56: [redirected permanently] https://neuroinformatics-unit.github.io/image-analysis-python/ to https://neuroinformatics.dev/image-analysis-python/
 courses/HPC-linux.md:32: [redirected permanently] https://neuroinformatics-unit.github.io/swc-hpc-pose-estimation to https://neuroinformatics.dev/swc-hpc-pose-estimation/
+courses/intro-software-dev.md:65: [redirected permanently] https://github.com/raacampbell/linux_cli_intro to https://github.com/SWC-Advanced-Microscopy/linux_cli_intro
 courses/python-packaging.md:23: [redirected permanently] https://opensource.org/licenses/BSD-3-Clause to https://opensource.org/license/BSD-3-Clause

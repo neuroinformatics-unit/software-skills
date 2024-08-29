@@ -6,36 +6,20 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 the [Neuroinformatics Unit](https://neuroinformatics.dev).
 
 ## Upcoming Courses
+::::{grid} 1 2 2 2
+:gutter: 3
 
-No courses are currently scheduled. 
 
-[//]: # (::::{grid} 1 2 2 2)
+:::{grid-item-card} {fas}`server;sd-text-primary`  September 30th - October 8th 2024
+:link: courses/software-skills
+:link-type: doc
 
-[//]: # (:gutter: 3)
+General software skills for systems neuroscience
++++
+Sainsbury Wellcome Centre, UCL <br>
+:::
 
-[//]: # ()
-[//]: # ()
-[//]: # (:::{grid-item-card} {fas}`server;sd-text-primary` Date)
-
-[//]: # (:link: courses/course-file)
-
-[//]: # (:link-type: doc)
-
-[//]: # ()
-[//]: # (Course title)
-
-[//]: # (+++)
-
-[//]: # (Sainsbury Wellcome Centre, UCL <br>)
-
-[//]: # (Room)
-
-[//]: # ()
-[//]: # (Time)
-
-[//]: # (:::)
-
-[//]: # (::::)
+::::
 
 ## Previous Courses
 

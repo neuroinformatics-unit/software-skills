@@ -1,0 +1,684 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>General software skills for systems neuroscience &#8212; SWC/GCNU Software Skills</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=24668965" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=d45e8c67"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'courses/software-skills';</script>
+    <link rel="canonical" href="https://software-skills.neuroinformatics.dev/courses/software-skills.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Type annotation in Python" href="type-annotation.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo_light.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo_dark.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Software skills</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="index.html">
+    All courses
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/neuroinformatics-unit/software-skills" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="index.html">
+    All courses
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/neuroinformatics-unit/software-skills" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">Projects index</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="histology-brainglobe.html">Histology analysis using napari and BrainGlobe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multiphoton-analysis.html">Multiphoton imaging analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hpc-behaviour.html">Running pose estimation on the SWC HPC system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="video-analysis.html">Video-based analysis of animal behaviour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="extracellular-analysis.html">Extracellular electrophysiology analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data-management.html">Data management and sharing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="collaborative-coding.html">Collaborative coding and software development good practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image-analysis-python.html">Image Analysis in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="timeseries-analysis.html">Introduction to Timeseries Analysis in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HPC-linux.html">Introduction to high-performance computing with Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction-image-analysis.html">Introduction to Image Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intro-software-dev.html">Introduction to software development in Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python-packaging.html">Turning your Python scripts into reusable, general-purpose software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="type-annotation.html">Type annotation in Python</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">General software skills for systems neuroscience</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">All courses</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">General...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="general-software-skills-for-systems-neuroscience">
+<h1>General software skills for systems neuroscience<a class="headerlink" href="#general-software-skills-for-systems-neuroscience" title="Link to this heading">#</a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<p>Held over seven days, this course will provide researchers with some basic computational skills for systems
+neuroscience research. This will include general programming, software development best practices and data analysis
+using leading open-source software tools. This course will also include some general microscopy lectures.</p>
+</section>
+<section id="schedule">
+<h2>Schedule<a class="headerlink" href="#schedule" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Date</p></th>
+<th class="head"><p>Time</p></th>
+<th class="head"><p>Event</p></th>
+<th class="head"><p>Location</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Monday, September 30th</strong></p></td>
+<td><p>13:00-14:00</p></td>
+<td><p>Introduction to the course</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>14:00-17:00</p></td>
+<td><p>Introduction to Python (1)</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Tuesday, October 1st</strong></p></td>
+<td><p>10:00-11:00</p></td>
+<td><p>Data management and sharing (1)</p></td>
+<td><p>SWC Ground Floor Lecture Theatre</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>15:00-17:00</p></td>
+<td><p>Data management and sharing (2)</p></td>
+<td><p>SWC Ground Floor Lecture Theatre</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Wednesday, October 2nd</strong></p></td>
+<td><p>10:00-12:30</p></td>
+<td><p>Introduction to Python (2)</p></td>
+<td><p>GCNU Seminar Room</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>13:30-17:00</p></td>
+<td><p>Version control and software development best practices</p></td>
+<td><p>GCNU Seminar Room</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Thursday, October 3rd</strong></p></td>
+<td><p>10:00-13:00</p></td>
+<td><p>Video-based analysis of animal behaviour (1)</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>14:00-17:00</p></td>
+<td><p>Video-based analysis of animal behaviour (2)</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Friday, October 4th</strong></p></td>
+<td><p>14:00-17:00</p></td>
+<td><p>Linux and high-performance computing</p></td>
+<td><p>SWC Ground Floor Lecture Theatre</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Monday, October 7th</strong></p></td>
+<td><p>11:00-12:00</p></td>
+<td><p>General microscopy: basics</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>13:00-14:30</p></td>
+<td><p>General microscopy: applications</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>14:30-18:00</p></td>
+<td><p>Histology analysis (1)</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Tuesday, October 8th</strong></p></td>
+<td><p>10:00-11:00</p></td>
+<td><p>Histology analysis (2)</p></td>
+<td><p>SWC Ground Floor Lecture Theatre</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>14:00-17:00</p></td>
+<td><p>Histology analysis (3)</p></td>
+<td><p>SWC Brasserie Seminar Room</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="introduction-to-python">
+<h2>Introduction to Python<a class="headerlink" href="#introduction-to-python" title="Link to this heading">#</a></h2>
+<p>The aim of the course is to introduce basic concepts of programming in Python, and establish a community of Python users. It is a hands-on course, in which we will guide you
+through the process of writing your first Python script and teach you some best practices.</p>
+<p>The course will run over two days, 2.5-3h per day with a break in between.</p>
+<p>Instructors: Igor Tatarnikov, Sofía Miñano</p>
+<p><strong>Day 1</strong></p>
+<p>Part 1</p>
+<ul class="simple">
+<li><p>Aims</p></li>
+<li><p>Why learn Python?</p></li>
+<li><p>How to work with Python?</p></li>
+<li><p>Basics of programming (1/2)</p>
+<ul>
+<li><p>Variables</p></li>
+<li><p>Data types</p></li>
+</ul>
+</li>
+</ul>
+<p>Part 2</p>
+<ul class="simple">
+<li><p>Basics of programming (2/2)</p>
+<ul>
+<li><p>Loops</p></li>
+<li><p>Conditional statements</p></li>
+<li><p>List comprehensions</p></li>
+</ul>
+</li>
+<li><p>Writing your first Python script</p></li>
+<li><p>Loading and saving data</p></li>
+</ul>
+<p><strong>Day 2</strong></p>
+<p>Part 1</p>
+<ul class="simple">
+<li><p>Recap and Q&amp;A</p></li>
+<li><p>Using third party libraries</p></li>
+<li><p>Functions and methods</p></li>
+<li><p>Classes and objects</p></li>
+</ul>
+<p>Part 2</p>
+<ul class="simple">
+<li><p>Errors and exceptions</p></li>
+<li><p>Organising your code</p></li>
+<li><p>Documenting your code</p></li>
+</ul>
+<section id="course-materials">
+<h3>Course materials<a class="headerlink" href="#course-materials" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/presentation/d/11URuWOxi5TMbeJNo4R1NWfBQ_ZPNFpe6YU6dvLAVcYQ/edit?usp=sharing">Slides</a></p></li>
+<li><p><a class="reference external" href="https://software-skills.neuroinformatics.dev/courses/intro-software-dev.html">Site for the 2023/2024 course</a></p></li>
+</ul>
+</section>
+<section id="additional-resources">
+<h3>Additional resources<a class="headerlink" href="#additional-resources" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/conda-forge/miniforge#download">Miniforge installers</a></p></li>
+<li><p><a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a></p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/">VS Code</a></p></li>
+</ul>
+</section>
+</section>
+<section id="data-management-and-sharing">
+<h2>Data Management and Sharing<a class="headerlink" href="#data-management-and-sharing" title="Link to this heading">#</a></h2>
+<p>This course will introduce best-practices in neuroscience data management
+and cover recent standardisation initiatives. The primary take-away from this course
+will be to leave with a strong schema in mind for clean organisation of experimental data.</p>
+<p>Full details can be found on the <a class="reference external" href="https://software-skills.neuroinformatics.dev/courses/data-management.html">course webpage</a></p>
+</section>
+<section id="version-control-and-software-development-best-practices">
+<h2>Version control and software development best practices<a class="headerlink" href="#version-control-and-software-development-best-practices" title="Link to this heading">#</a></h2>
+<p>The aims of the course are</p>
+<ul class="simple">
+<li><p>to learn how to keep track of changes to your code with Git and GitHub,</p></li>
+<li><p>to learn how to work with others on code</p></li>
+<li><p>and to get an initial idea of how structure, document and test your code.</p></li>
+</ul>
+<p>Instructors: Stephen Lenzi, Laura Porta, Alessandro Felder</p>
+</section>
+<section id="video-based-analysis-of-animal-behaviour">
+<h2>Video-based analysis of animal behaviour<a class="headerlink" href="#video-based-analysis-of-animal-behaviour" title="Link to this heading">#</a></h2>
+<p>This course will introduce the theory and practice of tracking animals in videos to quantify their behaviour.
+Participants will get to train pose estimation models
+with <a class="reference external" href="https://sleap.ai/">SLEAP</a>, analyse pose tracks
+with <a class="reference external" href="https://movement.neuroinformatics.dev/">movement</a>, and extract behavioural syllables with <a class="reference external" href="https://keypoint-moseq.readthedocs.io/en/latest/index.html">keypoint-moseq</a>.</p>
+<p>Full details can be found on the <a class="reference internal" href="video-analysis.html"><span class="doc std std-doc">course webpage</span></a>.</p>
+<p>Instructors: Niko Sirmpilatze, Chang Huan Lo, Sofía Miñano</p>
+</section>
+<section id="histology-analysis">
+<h2>Histology analysis<a class="headerlink" href="#histology-analysis" title="Link to this heading">#</a></h2>
+<p>Full details can be found on the <a class="reference external" href="https://brainglobe.info/community/courses/scheduled/oct-2024/index.html">course webpage</a>.</p>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="type-annotation.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Type annotation in Python</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#schedule">Schedule</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-python">Introduction to Python</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#course-materials">Course materials</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional resources</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-management-and-sharing">Data Management and Sharing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#version-control-and-software-development-best-practices">Version control and software development best practices</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-based-analysis-of-animal-behaviour">Video-based analysis of animal behaviour</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#histology-analysis">Histology analysis</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/courses/software-skills.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item"><p class="sphinx-version">
+Created using <a href="https://sphinx-doc.org/">Sphinx</a> 8.0.2.
+<br/>
+</p>
+<p class="theme-version">
+Built with the
+<a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a>
+0.15.4.
+</p></div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item"><div class="things-in-a-row">
+    <a href="https://www.sainsburywellcome.org/web/">
+        <img src="../_static/light-logo-swc.png" alt="Sponsors" class="only-light img-sponsor"/>
+        <img src="../_static/dark-logo-swc.png" alt="Sponsors" class="only-dark img-sponsor"/>
+    </a>
+    <a href="https://www.ucl.ac.uk/gatsby/gatsby-computational-neuroscience-unit">
+        <img src="../_static/light-logo-gatsby.png" alt="Sponsors" class="only-light img-sponsor"/>
+        <img src="../_static/dark-logo-gatsby.png" alt="Sponsors" class="only-dark img-sponsor"/>
+    </a>
+    <a href="https://www.ucl.ac.uk/">
+        <img src="../_static/light-logo-ucl.png" alt="Sponsors" class="only-light img-sponsor"/>
+        <img src="../_static/dark-logo-ucl.png" alt="Sponsors" class="only-dark img-sponsor"/>
+    </a>
+</div></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
