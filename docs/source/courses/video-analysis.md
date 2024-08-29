@@ -43,6 +43,6 @@ Useful links:
 - [keypoint-moseq](https://keypoint-moseq.readthedocs.io/en/latest/index.html)
 
 Recommended readings:
-- [Neuroscience Needs Behavior: Correcting a Reductionist Bias](https://www.sciencedirect.com/science/article/pii/S0896627316310406?via%3Dihub)
+- [Neuroscience Needs Behavior: Correcting a Reductionist Bias](http://dx.doi.org/10.1016/j.neuron.2016.12.041)
 - [Quantifying behavior to understand the brain](https://www.nature.com/articles/s41593-020-00734-z)
 - [Open-source tools for behavioral video analysis: Setup, methods, and best practices](https://elifesciences.org/articles/79305)
