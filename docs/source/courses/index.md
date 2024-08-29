@@ -23,5 +23,5 @@ introduction-image-analysis.md
 intro-software-dev.md
 python-packaging.md
 type-annotation.md
-
+software-skills.md
 ```

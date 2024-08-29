@@ -83,6 +83,7 @@ linkcheck_anchors_ignore_for_url = [
     "https://neuroinformatics.dev/course-behavioural-analysis",
     "https://github.com/neuroinformatics-unit/course-behaviour-hpc",
     "https://neuroinformatics.dev/course-behaviour-hpc",
+    "https://github.com/conda-forge/miniforge",
 ]
 
 # -- Options for HTML output -------------------------------------------------
@@ -134,4 +135,5 @@ linkcheck_ignore = [
     "https://keras.io/",
     "https://wiki.ucl.ac.uk",
     "https://www.dropbox.com",
+    "https://www.sciencedirect.com/"
 ]
