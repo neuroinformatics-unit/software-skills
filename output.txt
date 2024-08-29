@@ -1,11 +1,11 @@
-courses/intro-software-dev.md:71: [redirected permanently] http://swcarpentry.github.io/git-novice to https://swcarpentry.github.io/git-novice/
 courses/intro-software-dev.md:71: [redirected permanently] http://swcarpentry.github.io/shell-novice to https://swcarpentry.github.io/shell-novice/
-courses/introduction-image-analysis.md:41: [redirected permanently] http://bigwww.epfl.ch/deconvolution/deconvolutionlab2/ to https://bigwww.epfl.ch/deconvolution/deconvolutionlab2/
+courses/intro-software-dev.md:71: [redirected permanently] http://swcarpentry.github.io/git-novice to https://swcarpentry.github.io/git-novice/
 courses/video-analysis.md:46: [redirected with Found] http://dx.doi.org/10.1016/j.neuron.2016.12.041 to https://linkinghub.elsevier.com/retrieve/pii/S0896627316310406
-courses/data-management.md:23: [redirected permanently] https://github.com/neuroinformatics-unit/data-management-course to https://github.com/neuroinformatics-unit/course-data-management-neuroblueprint
+courses/introduction-image-analysis.md:41: [redirected permanently] http://bigwww.epfl.ch/deconvolution/deconvolutionlab2/ to https://bigwww.epfl.ch/deconvolution/deconvolutionlab2/
 courses/extracellular-analysis.md:36: [redirected permanently] https://github.com/neuroinformatics-unit/extracellular-ephys-analysis-course-2023 to https://github.com/neuroinformatics-unit/course-extracellular-ephys-analysis
+courses/data-management.md:23: [redirected permanently] https://github.com/neuroinformatics-unit/data-management-course to https://github.com/neuroinformatics-unit/course-data-management-neuroblueprint
 courses/timeseries-analysis.md:22: [redirected permanently] https://github.com/neuroinformatics-unit/swc-timeseries-analysis-course-2023 to https://github.com/neuroinformatics-unit/course-swc-timeseries-analysis-2023
 courses/intro-software-dev.md:65: [redirected permanently] https://github.com/raacampbell/linux_cli_intro to https://github.com/SWC-Advanced-Microscopy/linux_cli_intro
 courses/image-analysis-python.md:56: [redirected permanently] https://neuroinformatics-unit.github.io/image-analysis-python/ to https://neuroinformatics.dev/image-analysis-python/
-courses/python-packaging.md:23: [redirected permanently] https://opensource.org/licenses/BSD-3-Clause to https://opensource.org/license/BSD-3-Clause
 courses/HPC-linux.md:32: [redirected permanently] https://neuroinformatics-unit.github.io/swc-hpc-pose-estimation to https://neuroinformatics.dev/swc-hpc-pose-estimation/
+courses/python-packaging.md:23: [redirected permanently] https://opensource.org/licenses/BSD-3-Clause to https://opensource.org/license/BSD-3-Clause
