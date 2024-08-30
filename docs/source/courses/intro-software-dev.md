@@ -43,11 +43,6 @@ will pay dividends as you dive deeper into programming.
 [Slides (Python)](https://docs.google.com/presentation/d/11URuWOxi5TMbeJNo4R1NWfBQ_ZPNFpe6YU6dvLAVcYQ/edit?usp=sharing)
 
 ### Links
-[Further bash materials](http://swcarpentry.github.io/shell-novice)  
-[Further git materials](http://swcarpentry.github.io/git-novice)
-
-[Git installer](https://git-scm.com/downloads)
-
 [Miniforge](https://github.com/conda-forge/miniforge)
 
 [Miniforge installer (OSX, Intel)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh)  
