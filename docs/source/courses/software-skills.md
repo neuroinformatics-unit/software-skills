@@ -106,6 +106,14 @@ Full details can be found on the [course webpage](video-analysis).
 
 Instructors: Niko Sirmpilatze, Chang Huan Lo, Sofía Miñano
 
+## Linux and high-performance computing
+This course will introduce some basic principles of using Linux, and high-performance computing in general. Most of 
+the course will be centered around learning to run a specific workflow (pose estimation) on the SWC HPC system. 
+
+Full details can be found on the [course webpage](hpc-behaviour).
+
+Instructors: Niko Sirmpilatze, Igor Tatarnikov, Adam Tyson
+
 ## Histology analysis
 
 Full details can be found on the [course webpage](https://brainglobe.info/community/courses/scheduled/oct-2024/index.html).
