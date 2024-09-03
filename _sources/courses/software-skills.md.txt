@@ -114,6 +114,13 @@ Full details can be found on the [course webpage](hpc-behaviour).
 
 Instructors: Niko Sirmpilatze, Igor Tatarnikov, Adam Tyson
 
+## General microscopy
+This course will introduce some basic concepts about microscopy (optics, fluroescence etc.) to help better understand 
+the following course on histology analysis.
+
+Instructors: Rob Campbell, Adam Tyson, Alessandro Felder, Igor Tatarnikov
+
+
 ## Histology analysis
 
 Full details can be found on the [course webpage](https://brainglobe.info/community/courses/scheduled/oct-2024/index.html).

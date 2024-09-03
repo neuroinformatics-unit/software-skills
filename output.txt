@@ -8,4 +8,4 @@ courses/timeseries-analysis.md:22: [redirected permanently] https://github.com/n
 courses/intro-software-dev.md:65: [redirected permanently] https://github.com/raacampbell/linux_cli_intro to https://github.com/SWC-Advanced-Microscopy/linux_cli_intro
 courses/image-analysis-python.md:56: [redirected permanently] https://neuroinformatics-unit.github.io/image-analysis-python/ to https://neuroinformatics.dev/image-analysis-python/
 courses/HPC-linux.md:32: [redirected permanently] https://neuroinformatics-unit.github.io/swc-hpc-pose-estimation to https://neuroinformatics.dev/swc-hpc-pose-estimation/
-courses/python-packaging.md:23: [redirected permanently] https://opensource.org/licenses/BSD-3-Clause to https://opensource.org/license/BSD-3-Clause/
+courses/python-packaging.md:23: [redirected permanently] https://opensource.org/licenses/BSD-3-Clause to https://opensource.org/license/BSD-3-Clause
