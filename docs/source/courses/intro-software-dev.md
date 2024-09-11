@@ -17,8 +17,6 @@ will pay dividends as you dive deeper into programming.
 **Day 1**
 
 *   Introduction to Python
-*   Installing Python
-*   Editing Python files (IDE, text editor etc.)
 *   Variables
 *   Data types
 *   Loops
