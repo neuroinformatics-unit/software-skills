@@ -32,6 +32,8 @@ The course will run over two days, 2.5-3h per day with a break in between.
 
 Full details can be found on the [course webpage](https://software-skills.neuroinformatics.dev/courses/intro-software-dev.html)
 
+Instructors: Igor Tatarnikov, Sofía Miñano
+
 ## Data Management and Sharing
 
  This course will introduce best-practices in neuroscience data management 
