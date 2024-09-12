@@ -30,50 +30,9 @@ through the process of writing your first Python script and teach you some best 
 
 The course will run over two days, 2.5-3h per day with a break in between.
 
+Full details can be found on the [course webpage](https://software-skills.neuroinformatics.dev/courses/intro-software-dev.html)
+
 Instructors: Igor Tatarnikov, Sofía Miñano
-
-**Day 1**
-
-Part 1 
-* Aims
-* Why learn Python?
-* How to work with Python?
-* Basics of programming (1/2)
-    - Variables
-    - Data types
-
-Part 2 
-* Basics of programming (2/2)
-    - Loops
-    - Conditional statements
-    - List comprehensions
-* Writing your first Python script
-* Loading and saving data
-
-
-**Day 2**
-
-Part 1
-* Recap and Q&A
-* Using third party libraries
-* Functions and methods
-* Classes and objects
-
-Part 2
-* Errors and exceptions
-* Organising your code
-* Documenting your code
-
-
-### Course materials
-- [Slides](https://docs.google.com/presentation/d/11URuWOxi5TMbeJNo4R1NWfBQ_ZPNFpe6YU6dvLAVcYQ/edit?usp=sharing)
-- [Site for the 2023/2024 course](https://software-skills.neuroinformatics.dev/courses/intro-software-dev.html)
-
-
-### Additional resources
-- [Miniforge installers](https://github.com/conda-forge/miniforge#download)
-- [PyCharm](https://www.jetbrains.com/pycharm/)  
-- [VS Code](https://code.visualstudio.com/)  
 
 ## Data Management and Sharing
 
