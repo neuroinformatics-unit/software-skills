@@ -17,10 +17,10 @@ Students should have some initial experience with both Python and version contro
 Students should bring their own laptop with Python installed. If you require any assistance, please contact
 <a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a> in advance of the course.
 
-They should also follow [these setup instructions](https://github.com/rse-best-practices-course-2023/rse-best-practices-playground/issues/1) in advance of the course.
+They should also follow [these setup instructions](https://github.com/rse-best-practices-course/rse-best-practices-playground/issues/1) in advance of the course.
 
 
 ## Materials
 
 * [Slides](https://neuroinformatics.dev/course-software-good-practice)
-* [Github repo "Playground"](https://github.com/rse-best-practices-course-2023/rse-best-practices-playground/)
+* [Github repo "Playground"](https://github.com/rse-best-practices-course/rse-best-practices-playground/)
