@@ -46,8 +46,8 @@ Full details can be found on the [course webpage](https://software-skills.neuroi
 
 The aims of the course are
 * to learn how to keep track of changes to your code with Git and GitHub, 
-* to learn how to work with others on code
-* and to get an initial idea of how structure, document and test your code.
+* to learn how to structure your code well
+* and to get an initial idea of how work collaboratively on a code base, and how to document and test your code.
 
 [Git and Github slides for 2023/2024 course](https://docs.google.com/presentation/d/1HmTqmgB34deJILvPOQtwuaQR_iwGp5AwEwGf7tmx5hE/edit?usp=sharing)
 [Site for software development best practice](collaborative-coding)
