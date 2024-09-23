@@ -50,6 +50,7 @@ The aims of the course are
 * and to get an initial idea of how work collaboratively on a code base, and how to document and test your code.
 
 [Git and Github slides for 2023/2024 course](https://docs.google.com/presentation/d/1HmTqmgB34deJILvPOQtwuaQR_iwGp5AwEwGf7tmx5hE/edit?usp=sharing)
+
 [Site for software development best practice](collaborative-coding)
 
 Instructors: Stephen Lenzi, Laura Porta, Alessandro Felder
