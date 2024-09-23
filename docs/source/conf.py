@@ -135,4 +135,5 @@ linkcheck_ignore = [
     "https://keras.io/",
     "https://wiki.ucl.ac.uk",
     "https://www.dropbox.com",
+    "https://neuroinformatics.dev/slides-SWC-PhD-intro/#/section",
 ]
