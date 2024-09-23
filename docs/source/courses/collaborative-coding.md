@@ -17,7 +17,7 @@ Students should have some initial experience with both Python and version contro
 Students should bring their own laptop with Python installed. If you require any assistance, please contact
 <a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a> in advance of the course.
 
-They should also follow [these setup instructions](https://github.com/rse-best-practices-course/rse-best-practices-playground/issues/1) in advance of the course.
+They should also follow [these setup instructions](https://neuroinformatics.dev/slides-SWC-PhD-intro/#/section) in advance of the course.
 
 
 ## Materials
