@@ -32,7 +32,7 @@ This is a hands-on course, so **please bring your own laptop and charger**. A mo
 ### General Software Requirements
 
 :::{note}
-If you are an incoming PhD student attending the entire [General Software Skills for Systems Neuroscience](general-software-skills) course, you may have already installed the general software requirements during Day 1 and can skip this section.
+If you are an incoming PhD student attending the full [General Software Skills for Systems Neuroscience](general-software-skills) course and have already installed the general software requirements on Day 1, you may skip this section.
 :::
 
 - An IDE for Python programming. We recommend one of the following:
@@ -46,23 +46,23 @@ If you are an incoming PhD student attending the entire [General Software Skills
 ### Specific Software Requirements
 
 :::{note}
-Only proceed with these installations after completing the above general software requirements.
+Only proceed with this section after fulfilling the general software requirements above.
 :::
 
 You will need to pre-install two different `conda` environments for the practical exercises. Create them as follows:
 
-1. [**SLEAP**](https://sleap.ai/): Use the [conda package method](https://sleap.ai/installation.html#conda-package) from the SLEAP installation guide. You may use `conda` instead of `mamba` in the installation command. If your machine lacks an NVIDIA GPU, that's fine; for this course, you just need to be able to launch the SLEAP GUI using `sleap-label`.
+1. [**SLEAP**](https://sleap.ai/): Use the [conda package method](https://sleap.ai/installation.html#conda-package) from the SLEAP installation guide. You may use either `conda` or `mamba` in the installation command. An NVIDIA GPU is not required for this course as you will only use the SLEAP GUI (launched using `sleap-label`).
 2. [**Keypoint-MoSeq**](https://keypoint-moseq.readthedocs.io): Use the recommended [conda installation method](https://keypoint-moseq.readthedocs.io/en/latest/install.html#install-using-conda).
 
 You should now have two new conda environments called `sleap` and `keypoint_moseq`. To view all your conda environments, run `conda env list`.
 
 ### Sample Data
 
-Download the sample data for this course from [Dropbox](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&st=zolupk4i&dl=0). Click "Download" to get the `behav-analysis-course.zip` archive and unzip it.
+Download the sample data for this course from [Dropbox](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&st=zolupk4i&dl=0). Click "Download" to get the `behav-analysis-course.zip` archive, then unzip it.
 
-Alternatively, if you have access to the SWC's `ceph` filesystem, find the dataset at `/ceph/scratch/neuroinformatics-dropoff/behav-analysis-course`. To mount `ceph` on your laptop, follow the [instructions on the SWC wiki](https://wiki.ucl.ac.uk/display/SSC/Storage%3A+Ceph). Note: You must be connected to the SWC network to access the wiki and mount `ceph`.
-
-Ensure you copy the data to a convenient location on your laptop.
+Alternatively, if you are connected to the SWC network and have access to the SWC's `ceph` filesystem, the dataset is available at `/ceph/scratch/neuroinformatics-dropoff/behav-analysis-course`. 
+Ensure you copy the data to a convenient location on your laptop. 
+The instructions to mount `ceph` on your laptop can be found on the [SWC wiki](https://wiki.ucl.ac.uk/display/SSC/Storage%3A+Ceph).
 
 :::{note}
 If you encounter any issues with these steps, please contact [Niko Sirmpilatze](mailto:n.sirmpilatze@ucl.ac.uk?subject=SWC/GCNU%20Software%20Skills) in advance of the course.
