@@ -1,3 +1,4 @@
+(general-software-skills)=
 # General software skills for systems neuroscience
 
 ## Overview
@@ -62,7 +63,9 @@ Participants will get to train pose estimation models
 with [SLEAP](https://sleap.ai/), analyse pose tracks
 with [movement](https://movement.neuroinformatics.dev/), and extract behavioural syllables with [keypoint-moseq](https://keypoint-moseq.readthedocs.io/en/latest/index.html). 
 
-Full details can be found on the [course webpage](video-analysis).
+:::{important}
+Please install the necessary software and download the required data ahead of the course. Full details can be found on the [course webpage](video-analysis). If you encounter any issues, please contact Niko Sirmpilatze.
+:::
 
 Instructors: Niko Sirmpilatze, Chang Huan Lo, Sofía Miñano
 

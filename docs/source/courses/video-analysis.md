@@ -24,12 +24,49 @@ This will cover how to run pose estimation at scale, using the GPUs of the SWC H
 * [Sofía Miñano](https://github.com/sfmig)
 
 ## Prerequisites
-Make sure to follow the [steps outlined here](https://github.com/neuroinformatics-unit/course-behavioural-analysis#prerequisites) which will guide you through
-setting up your laptop, installing the required software, and downloading the sample data.
 
-If you encounter issues with any of these steps please contact 
-<a href="mailto:n.sirmpilatze@ucl.ac.uk?subject=SWC/GCNU Software Skills">Niko Sirmpilatze</a>
-in advance of the course.
+### Hardware Requirements
+
+This is a hands-on course, so **please bring your own laptop and charger**. A mouse is recommended but not essential. A dedicated GPU is not required but will be helpful.
+
+### General Software Requirements
+
+:::{note}
+If you are an incoming PhD student attending the full [General Software Skills for Systems Neuroscience](general-software-skills) course and have already installed the general software requirements on Day 1, you may skip this section.
+:::
+
+- An IDE for Python programming. We recommend one of the following:
+  - [Visual Studio Code](https://code.visualstudio.com/) with the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [PyCharm](https://www.jetbrains.com/pycharm/)
+  - [JupyterLab](https://jupyter.org/install)
+
+- A working `conda` (or `mamba`) installation. If you don't have it, install via [Miniforge](https://github.com/conda-forge/miniforge).
+- A working [Git](https://git-scm.com/) installation.
+
+### Specific Software Requirements
+
+:::{note}
+Only proceed with this section after fulfilling the general software requirements above.
+:::
+
+You will need to pre-install two different `conda` environments for the practical exercises. Create them as follows:
+
+1. [**SLEAP**](https://sleap.ai/): Use the [conda package method](https://sleap.ai/installation.html#conda-package) from the SLEAP installation guide. You may use either `conda` or `mamba` in the installation command. An NVIDIA GPU is not required for this course as you will only use the SLEAP GUI (launched using `sleap-label`).
+2. [**Keypoint-MoSeq**](https://keypoint-moseq.readthedocs.io): Use the recommended [conda installation method](https://keypoint-moseq.readthedocs.io/en/latest/install.html#install-using-conda).
+
+You should now have two new conda environments called `sleap` and `keypoint_moseq`. To view all your conda environments, run `conda env list`.
+
+### Sample Data
+
+Download the sample data for this course from [Dropbox](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&st=zolupk4i&dl=0). Click "Download" to get the `behav-analysis-course.zip` archive, then unzip it.
+
+Alternatively, if you are connected to the SWC network and have access to the SWC's `ceph` filesystem, the dataset is available at `/ceph/scratch/neuroinformatics-dropoff/behav-analysis-course`. 
+Ensure you copy the data to a convenient location on your laptop. 
+The instructions to mount `ceph` on your laptop can be found on the [SWC wiki](https://wiki.ucl.ac.uk/display/SSC/Storage%3A+Ceph).
+
+:::{note}
+If you encounter any issues with these steps, please contact [Niko Sirmpilatze](mailto:n.sirmpilatze@ucl.ac.uk?subject=SWC/GCNU%20Software%20Skills) in advance of the course.
+:::
 
 ## Materials
 - [GitHub repository](https://github.com/neuroinformatics-unit/course-behavioural-analysis)
