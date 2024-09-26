@@ -58,7 +58,7 @@ You should now have two new conda environments called `sleap` and `keypoint_mose
 
 ### Sample Data
 
-Download the sample data for this course from [Dropbox](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&st=56698231&dl=0). Click "Download" to get the `behav-analysis-course.zip` archive, then unzip it.
+Download the sample data for this course from https://tinyurl.com/behav-analysis-course-data. Click "Download" to get the `behav-analysis-course.zip` archive, then unzip it.
 
 Alternatively, if you are connected to the SWC network and have access to the SWC's `ceph` filesystem, the dataset is available at `/ceph/scratch/neuroinformatics-dropoff/behav-analysis-course`. 
 Ensure you copy the data to a convenient location on your laptop. 
@@ -71,7 +71,7 @@ If you encounter any issues with these steps, please contact [Niko Sirmpilatze](
 ## Materials
 - [GitHub repository](https://github.com/neuroinformatics-unit/course-behavioural-analysis)
 - [Slides](https://neuroinformatics.dev/course-behavioural-analysis/#/title-slide)
-- [Sample data](https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&st=56698231&dl=0)
+- [Sample data](https://tinyurl.com/behav-analysis-course-data)
 
 Useful links:
 - [SLEAP](https://sleap.ai/)
