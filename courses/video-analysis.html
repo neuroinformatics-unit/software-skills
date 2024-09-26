@@ -409,11 +409,52 @@ This will cover how to run pose estimation at scale, using the GPUs of the SWC H
 </section>
 <section id="prerequisites">
 <h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">#</a></h2>
-<p>Make sure to follow the <a class="reference external" href="https://github.com/neuroinformatics-unit/course-behavioural-analysis#prerequisites">steps outlined here</a> which will guide you through
-setting up your laptop, installing the required software, and downloading the sample data.</p>
-<p>If you encounter issues with any of these steps please contact
-<a href="mailto:n.sirmpilatze@ucl.ac.uk?subject=SWC/GCNU Software Skills">Niko Sirmpilatze</a>
-in advance of the course.</p>
+<section id="hardware-requirements">
+<h3>Hardware Requirements<a class="headerlink" href="#hardware-requirements" title="Link to this heading">#</a></h3>
+<p>This is a hands-on course, so <strong>please bring your own laptop and charger</strong>. A mouse is recommended but not essential. A dedicated GPU is not required but will be helpful.</p>
+</section>
+<section id="general-software-requirements">
+<h3>General Software Requirements<a class="headerlink" href="#general-software-requirements" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are an incoming PhD student attending the full <a class="reference internal" href="software-skills.html#general-software-skills"><span class="std std-ref">General Software Skills for Systems Neuroscience</span></a> course and have already installed the general software requirements on Day 1, you may skip this section.</p>
+</div>
+<ul class="simple">
+<li><p>An IDE for Python programming. We recommend one of the following:</p>
+<ul>
+<li><p><a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code</a> with the <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python extension</a></p></li>
+<li><p><a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a></p></li>
+<li><p><a class="reference external" href="https://jupyter.org/install">JupyterLab</a></p></li>
+</ul>
+</li>
+<li><p>A working <code class="docutils literal notranslate"><span class="pre">conda</span></code> (or <code class="docutils literal notranslate"><span class="pre">mamba</span></code>) installation. If you don’t have it, install via <a class="reference external" href="https://github.com/conda-forge/miniforge">Miniforge</a>.</p></li>
+<li><p>A working <a class="reference external" href="https://git-scm.com/">Git</a> installation.</p></li>
+</ul>
+</section>
+<section id="specific-software-requirements">
+<h3>Specific Software Requirements<a class="headerlink" href="#specific-software-requirements" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only proceed with this section after fulfilling the general software requirements above.</p>
+</div>
+<p>You will need to pre-install two different <code class="docutils literal notranslate"><span class="pre">conda</span></code> environments for the practical exercises. Create them as follows:</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://sleap.ai/"><strong>SLEAP</strong></a>: Use the <a class="reference external" href="https://sleap.ai/installation.html#conda-package">conda package method</a> from the SLEAP installation guide. You may use either <code class="docutils literal notranslate"><span class="pre">conda</span></code> or <code class="docutils literal notranslate"><span class="pre">mamba</span></code> in the installation command. An NVIDIA GPU is not required for this course as you will only use the SLEAP GUI (launched using <code class="docutils literal notranslate"><span class="pre">sleap-label</span></code>).</p></li>
+<li><p><a class="reference external" href="https://keypoint-moseq.readthedocs.io"><strong>Keypoint-MoSeq</strong></a>: Use the recommended <a class="reference external" href="https://keypoint-moseq.readthedocs.io/en/latest/install.html#install-using-conda">conda installation method</a>.</p></li>
+</ol>
+<p>You should now have two new conda environments called <code class="docutils literal notranslate"><span class="pre">sleap</span></code> and <code class="docutils literal notranslate"><span class="pre">keypoint_moseq</span></code>. To view all your conda environments, run <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>.</p>
+</section>
+<section id="sample-data">
+<h3>Sample Data<a class="headerlink" href="#sample-data" title="Link to this heading">#</a></h3>
+<p>Download the sample data for this course from <a class="reference external" href="https://www.dropbox.com/scl/fo/ey7b6yrqax2olqyv1th7j/h?rlkey=u4wh2gxtbbn4g5o3s55zbx6pp&amp;amp;st=zolupk4i&amp;amp;dl=0">Dropbox</a>. Click “Download” to get the <code class="docutils literal notranslate"><span class="pre">behav-analysis-course.zip</span></code> archive, then unzip it.</p>
+<p>Alternatively, if you are connected to the SWC network and have access to the SWC’s <code class="docutils literal notranslate"><span class="pre">ceph</span></code> filesystem, the dataset is available at <code class="docutils literal notranslate"><span class="pre">/ceph/scratch/neuroinformatics-dropoff/behav-analysis-course</span></code>.
+Ensure you copy the data to a convenient location on your laptop.
+The instructions to mount <code class="docutils literal notranslate"><span class="pre">ceph</span></code> on your laptop can be found on the <a class="reference external" href="https://wiki.ucl.ac.uk/display/SSC/Storage%3A+Ceph">SWC wiki</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you encounter any issues with these steps, please contact <a class="reference external" href="mailto:n&#46;sirmpilatze&#37;&#52;&#48;ucl&#46;ac&#46;uk?subject=SWC/GCNU%20Software%20Skills">Niko Sirmpilatze</a> in advance of the course.</p>
+</div>
+</section>
 </section>
 <section id="materials">
 <h2>Materials<a class="headerlink" href="#materials" title="Link to this heading">#</a></h2>
@@ -486,7 +527,13 @@ in advance of the course.</p>
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructors">Instructors</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prerequisites">Prerequisites</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hardware-requirements">Hardware Requirements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-software-requirements">General Software Requirements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#specific-software-requirements">Specific Software Requirements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sample-data">Sample Data</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#materials">Materials</a></li>
 </ul>
   </nav></div>
