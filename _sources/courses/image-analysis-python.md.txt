@@ -25,8 +25,8 @@ If time allows, we will also look at using convolutional neural networks for tri
 ## In advance of the course
 ### Installing packages
 
-Before attending the course, please 
-[install conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) 
+Before attending the course, please download and install conda from
+[miniforge](https://github.com/conda-forge/miniforge) 
 if you don't already have it installed, and then run the following to install all relevant packages:
 
 ```bash

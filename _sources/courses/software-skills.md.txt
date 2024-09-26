@@ -9,8 +9,7 @@ using leading open-source software tools. This course will also include some gen
 ## Schedule
 | Date                  | Time           | Event                                                        | Location                           |
 |-----------------------|----------------|--------------------------------------------------------------|------------------------------------|
-| **Monday, September 30th** | 13:00-14:00    | Introduction to the course                                    | SWC Brasserie Seminar Room         |
-|                       | 14:00-17:30    | Introduction to Python (1)                                    | SWC Brasserie Seminar Room         |
+| **Monday, September 30th** | 13:00-17:30    | Introduction to Python (1)                                    | SWC Brasserie Seminar Room         |
 | **Tuesday, October 1st**   | 10:00-11:00    | Data management and sharing (1)                                | SWC Ground Floor Lecture Theatre   |
 |                       | 15:00-17:30    | Data management and sharing (2)                                | SWC Ground Floor Lecture Theatre   |
 | **Wednesday, October 2nd** | 10:00-12:30    | Introduction to Python (2)                                    | GCNU Seminar Room                  |
