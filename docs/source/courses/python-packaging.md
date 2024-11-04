@@ -20,7 +20,7 @@ For this course you will need a very basic knowledge of Python, and a laptop wit
 
 
 * [Sample .gitignore file](https://gist.githubusercontent.com/adamltyson/4d2b2cab224aeb94701fdddc4b894206/raw/998471179d290cf9204eb8cfe799dc32ef92e292/.gitignore)
-* [BSD-3-Clause license](https://opensource.org/licenses/BSD-3-Clause)
+* [BSD-3-Clause license](https://opensource.org/license/BSD-3-Clause)
 * [GitHub markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [black config](https://gist.githubusercontent.com/adamltyson/559678f224ae0e1f08cf1768b319793c/raw/db170fde3be3e8511b987fd019d420a52edfb9b9/pyproject.toml)
 * [pre-commit config file](https://gist.githubusercontent.com/adamltyson/06dc8f8760feee57a4b41aa66833c835/raw/da2050d7eb4db28f17d28f591fa6eefd98946408/.pre-commit-config.yaml)
