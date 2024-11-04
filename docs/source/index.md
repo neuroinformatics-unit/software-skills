@@ -9,14 +9,12 @@ the [Neuroinformatics Unit](https://neuroinformatics.dev).
 ::::{grid} 1 2 2 2
 :gutter: 3
 
-
-:::{grid-item-card} {fas}`server;sd-text-primary`  September 30th - October 8th 2024
-:link: courses/software-skills
+:::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
+:link: courses/extracellular-analysis
 :link-type: doc
 
-General software skills for systems neuroscience
-+++
-Sainsbury Wellcome Centre, UCL <br>
+November 5th - October 7th 2024
+
 :::
 
 ::::
@@ -26,6 +24,14 @@ Sainsbury Wellcome Centre, UCL <br>
 <!--for fontawesome icons, see https://fontawesome.com/docs/web/setup/get-started-->
 ::::{grid} 1 2 2 3
 :gutter: 3
+
+:::{grid-item-card} {fas}`server;sd-text-primary`  General software skills for systems neuroscience
+:link: courses/software-skills
+:link-type: doc
+
++++
+Sainsbury Wellcome Centre, UCL <br>
+:::
 
 :::{grid-item-card} {fas}`server;sd-text-primary`  Running pose estimation on the SWC HPC system
 :link: courses/hpc-behaviour
@@ -44,11 +50,6 @@ Sainsbury Wellcome Centre, UCL <br>
 
 :::{grid-item-card} {fas}`file-image;sd-text-primary`  Multiphoton imaging analysis
 :link: courses/multiphoton-analysis
-:link-type: doc
-:::
-
-:::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
-:link: courses/extracellular-analysis
 :link-type: doc
 :::
 
