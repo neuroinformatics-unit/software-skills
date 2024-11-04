@@ -13,7 +13,7 @@ the [Neuroinformatics Unit](https://neuroinformatics.dev).
 :link: courses/extracellular-analysis
 :link-type: doc
 
-November 5-7th 2024
+November 5-7th, 2024
 
 :::
 
