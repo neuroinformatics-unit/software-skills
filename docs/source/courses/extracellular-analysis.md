@@ -23,14 +23,14 @@ Students should bring their own laptop with Python installed. If you require any
 <a href="mailto:j.ziminski@ucl.ac.uk?subject=SWC/GCNU Software Skills">Joe Ziminski</a> in advance of the course.
 
 ## Materials
-Wednesday 8th Nov
+Tuesday 5th Nov
 
 * [Slides](https://docs.google.com/presentation/d/1VTX5mogZXG-9ssQRjg3d0SCZ_jgR800KfvNfVZOhkUs/edit?usp=sharing)
 
 * [Download Data](https://www.dropbox.com/sh/h782frjxyugifle/AABANGRWOGrtUmpWkJvHON9Ya?dl=0)
  
-Thursday 9th Nov
+6th - 7th November
 
-* [Slides](https://docs.google.com/presentation/d/1qS-Ua1qbegiHr-_wCDjGk1dW6ydw09YYdpP0FJpilcQ/edit?usp=drive_link)
+* [Slides](https://docs.google.com/presentation/d/1_GMxwcyVmpvXq4BpUYwgDgEKsr23Ifl1oc0mRyWB25s/edit?usp=sharing)
 
-* [Repo](https://github.com/neuroinformatics-unit/extracellular-ephys-analysis-course-2023)
+* [Repo](https://github.com/neuroinformatics-unit/course-extracellular-ephys-analysis)
