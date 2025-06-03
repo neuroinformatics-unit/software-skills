@@ -6,18 +6,6 @@ Computational skills training at the [UCL](https://www.ucl.ac.uk/)
 the [Neuroinformatics Unit](https://neuroinformatics.dev).
 
 ## Upcoming Courses
-::::{grid} 1 2 2 2
-:gutter: 3
-
-:::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
-:link: courses/extracellular-analysis
-:link-type: doc
-
-November 5-7th, 2024
-
-:::
-
-::::
 
 ## Previous Courses
 
@@ -25,12 +13,16 @@ November 5-7th, 2024
 ::::{grid} 1 2 2 3
 :gutter: 3
 
+:::{grid-item-card} {fas}`bolt;sd-text-primary`  Extracellular electrophysiology analysis
+:link: courses/extracellular-analysis
+:link-type: doc
+
+:::
+
 :::{grid-item-card} {fas}`server;sd-text-primary`  General software skills for systems neuroscience
 :link: courses/software-skills
 :link-type: doc
 
-+++
-Sainsbury Wellcome Centre, UCL <br>
 :::
 
 :::{grid-item-card} {fas}`server;sd-text-primary`  Running pose estimation on the SWC HPC system
