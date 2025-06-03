@@ -23,8 +23,6 @@ the [Neuroinformatics Unit](https://neuroinformatics.dev).
 :link: courses/software-skills
 :link-type: doc
 
-+++
-Sainsbury Wellcome Centre, UCL <br>
 :::
 
 :::{grid-item-card} {fas}`server;sd-text-primary`  Running pose estimation on the SWC HPC system
