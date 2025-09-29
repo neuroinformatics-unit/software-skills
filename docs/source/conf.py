@@ -133,7 +133,6 @@ html_theme_options = {
 
 linkcheck_ignore = [
     "https://keras.io/",
-    "https://wiki.ucl.ac.uk",
     "https://www.dropbox.com",
     "https://neuroinformatics.dev/slides-SWC-PhD-intro/#/section",
     "https://opensource.org/license/BSD-3-Clause",
