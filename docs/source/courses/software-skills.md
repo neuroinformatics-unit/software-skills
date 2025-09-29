@@ -11,7 +11,7 @@ using leading open-source software tools. This course will also include some gen
 |----------------------------|----------------|---------------------------------------------------------|------------------------------------|
 | **Tuesday, September 30th**| 14:00-17:30    | Introduction to Python (1)                              | SWC Ground Floor Lecture Theatre   |
 | **Wednesday, October 1st** | 10:00-15:00    | Introduction to Python (2)                              | SWC Brasserie Seminar Room         |
-| **Thursday, October 2nd**  | 09:00-18:00    | Data managements and sharing                            | SWC Brasserie Seminar Room         |
+| **Thursday, October 2nd**  | 13:00-17:00    | Data managements and sharing                            | SWC Brasserie Seminar Room         |
 | **Friday, October 3rd**    | 13:00-18:00    | Version control and software development best practices | SWC Ground Floor Lecture Theatre   |
 | **Wednesday, October 8th** | 09:00-16:00    | Video-based analysis of animal behaviour                | SWC Brasserie Seminar Room         |
 | **Thursday, October 9th**  | 10:00-15:00    | Linux and high-performance computing                    | SWC Brasserie Seminar Room         |
