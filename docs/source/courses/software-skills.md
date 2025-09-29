@@ -13,7 +13,7 @@ using leading open-source software tools. This course will also include some gen
 | **Wednesday, October 1st** | 10:00-15:00    | Introduction to Python (2)                              | SWC Brasserie Seminar Room         |
 | **Thursday, October 2nd**  | 09:00-18:00    | Data managements and sharing                            | SWC Brasserie Seminar Room         |
 | **Friday, October 3rd**    | 13:00-18:00    | Version control and software development best practices | SWC Ground Floor Lecture Theatre   |
-| **Wednesday, October 8th** | 09:00-18:00    | Video-based analysis of animal behaviour                | SWC Brasserie Seminar Room         |
+| **Wednesday, October 8th** | 09:00-16:00    | Video-based analysis of animal behaviour                | SWC Brasserie Seminar Room         |
 | **Thursday, October 9th**  | 10:00-15:00    | Linux and high-performance computing                    | SWC Brasserie Seminar Room         |
 |                            | 15:00-16:00    | General microscopy: basics                              | SWC Brasserie Seminar Room         |
 |                            | 16:00-17:00    | General microscopy: applications                        | SWC Brasserie Seminar Room         |
@@ -54,9 +54,8 @@ Instructors: Stephen Lenzi, Sofía Miñano, Alessandro Felder
 ## Video-based analysis of animal behaviour
 
 This course will introduce the theory and practice of tracking animals in videos to quantify their behaviour.
-Participants will get to train pose estimation models
-with [SLEAP](https://sleap.ai/), analyse pose tracks
-with [movement](https://movement.neuroinformatics.dev/), and extract behavioural syllables with [keypoint-moseq](https://keypoint-moseq.readthedocs.io/en/latest/index.html). 
+Participants will get to train pose estimation models with [SLEAP](https://sleap.ai/)
+and analyse pose tracks with [movement](https://movement.neuroinformatics.dev/).
 
 :::{important}
 Please install the necessary software and download the required data ahead of the course. Full details can be found on the [course webpage](video-analysis). If you encounter any issues, please contact Niko Sirmpilatze.
