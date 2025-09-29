@@ -7,21 +7,17 @@ neuroscience research. This will include general programming, software developme
 using leading open-source software tools. This course will also include some general microscopy lectures. 
 
 ## Schedule
-| Date                  | Time           | Event                                                        | Location                           |
-|-----------------------|----------------|--------------------------------------------------------------|------------------------------------|
-| **Monday, September 30th** | 13:00-17:30    | Introduction to Python (1)                                    | SWC Brasserie Seminar Room         |
-| **Tuesday, October 1st**   | 09:45-10:45    | Data management and sharing (1)                                | SWC Ground Floor Lecture Theatre   |
-|                       | 15:00-17:30    | Data management and sharing (2)                                | SWC Ground Floor Lecture Theatre   |
-| **Wednesday, October 2nd** | 10:00-12:30    | Introduction to Python (2)                                    | GCNU Seminar Room                  |
-|                       | 13:30-17:30    | Version control and software development best practices       | GCNU Seminar Room                  |
-| **Thursday, October 3rd**  | 10:00-13:00    | Video-based analysis of animal behaviour (1)                  | SWC Brasserie Seminar Room         |
-|                       | 14:00-17:30    | Video-based analysis of animal behaviour (2)                  | SWC Brasserie Seminar Room         |
-| **Friday, October 4th**    | 14:00-17:30    | Linux and high-performance computing                          | SWC Ground Floor Lecture Theatre   |
-| **Monday, October 7th**    | 11:00-12:00    | General microscopy: basics                                    | SWC Brasserie Seminar Room         |
-|                       | 13:00-14:30    | General microscopy: applications                              | SWC Brasserie Seminar Room         |
-|                       | 14:30-18:00    | Histology analysis (1)                                        | SWC Brasserie Seminar Room         |
-| **Tuesday, October 8th**   | 10:00-11:00    | Histology analysis (2)                                        | SWC Ground Floor Lecture Theatre   |
-|                       | 14:00-17:30    | Histology analysis (3)                                        | SWC Brasserie Seminar Room         |
+| Date                       | Time           | Event                                                   | Location                           |
+|----------------------------|----------------|---------------------------------------------------------|------------------------------------|
+| **Tuesday, September 30th**| 14:00-17:30    | Introduction to Python (1)                              | SWC Ground Floor Lecture Theatre   |
+| **Wednesday, October 1st** | 10:00-15:00    | Introduction to Python (2)                              | SWC Brasserie Seminar Room         |
+| **Thursday, October 2nd**  | 09:00-18:00    | Data managements and sharing                            | SWC Brasserie Seminar Room         |
+| **Friday, October 3rd**    | 13:00-18:00    | Version control and software development best practices | SWC Ground Floor Lecture Theatre   |
+| **Wednesday, October 8th** | 09:00-18:00    | Video-based analysis of animal behaviour                | SWC Brasserie Seminar Room         |
+| **Thursday, October 9th**  | 10:00-15:00    | Linux and high-performance computing                    | SWC Brasserie Seminar Room         |
+|                            | 15:00-16:00    | General microscopy: basics                              | SWC Brasserie Seminar Room         |
+|                            | 16:00-17:00    | General microscopy: applications                        | SWC Brasserie Seminar Room         |
+| **Thursday, October 9th**  | 11:00-18:00    | Histology analysis                                      | SWC Brasserie Seminar Room         |
 
 
 ## Introduction to Python
@@ -32,7 +28,7 @@ The course will run over two days, 2.5-3h per day with a break in between.
 
 Full details can be found on the [course webpage](https://software-skills.neuroinformatics.dev/courses/intro-software-dev.html)
 
-Instructors: Igor Tatarnikov, Sofía Miñano
+Instructors: Igor Tatarnikov, Laura Porta
 
 ## Data Management and Sharing
 
@@ -53,7 +49,7 @@ The aims of the course are
 
 [Site for software development best practice](collaborative-coding)
 
-Instructors: Stephen Lenzi, Laura Porta, Alessandro Felder
+Instructors: Stephen Lenzi, Sofía Miñano, Alessandro Felder
 
 ## Video-based analysis of animal behaviour
 
