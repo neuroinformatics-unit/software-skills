@@ -9,7 +9,7 @@ an understanding of pose estimation tools, e.g. by attending the [Video-based an
 
 Students should bring their own laptop with Python installed. They should also possess
 an SWC username and password and be able to 
-[log into the SWC's HPC cluster](https://wiki.ucl.ac.uk/display/SSC/Logging+into+the+Cluster).
+[log into the SWC's HPC cluster](https://liveuclac.sharepoint.com/sites/SSC/SitePages/SSC-Logging-into-the-Cluster-194972967.aspx).
 If you require any assistance, please contact
 <a href="mailto:adam.tyson@ucl.ac.uk?subject=SWC/GCNU Software Skills">Adam Tyson</a> in advance of the course.
 
