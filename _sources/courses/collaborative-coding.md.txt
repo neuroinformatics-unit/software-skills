@@ -23,4 +23,4 @@ They should also follow [these setup instructions](https://neuroinformatics.dev/
 ## Materials
 
 * [Slides](https://neuroinformatics.dev/course-software-good-practice)
-* [Github repo "Playground"](https://github.com/rse-best-practices-course/rse-best-practices-playground/)
+* [Github repo "Playground"](https://github.com/rse-best-practices-course/2025-course)
